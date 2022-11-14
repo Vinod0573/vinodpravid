@@ -92,7 +92,7 @@ const HomePage = () => {
               rel="noreferrer noopener"
               className="acceleratingLink"
             >
-              (Stage)Saarthi know how a leading fintech accelerated collections with
+              (Newstage)Saarthi know how a leading fintech accelerated collections with
               85% cost reduction? Download our Success Study.
             </a>
           </h2>
