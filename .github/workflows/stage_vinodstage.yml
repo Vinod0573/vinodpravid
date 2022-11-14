@@ -23,14 +23,14 @@ jobs:
       uses: docker/login-action@v1
       with:
         registry: https://vinodtest.azurecr.io/
-        username: ${{ secrets.AzureAppService_ContainerUsername_e57317b259b34412b62b031802279ed8 }}
-        password: ${{ secrets.AzureAppService_ContainerPassword_65ea5b982f80435b93fc7fb191da3a12 }}
+        username: ${{ secrets.AzureAppService_ContainerUsername_fffd8034ab9e405babbcefae6317c347 }}
+        password: ${{ secrets.AzureAppService_ContainerPassword_a9e01877329049c2bd55ef03bff18c64 }}
 
     - name: Build and push container image to registry
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: vinodtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e57317b259b34412b62b031802279ed8 }}/pravid:${{ github.sha }}
+        tags: vinodtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_fffd8034ab9e405babbcefae6317c347 }}/stage:${{ github.sha }}
         file: ./Dockerfile
 
   deploy:
@@ -47,5 +47,5 @@ jobs:
       with:
         app-name: 'vinodstage'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_307eeaadb4e840c2b8ee98175950fa20 }}
-        images: 'vinodtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_e57317b259b34412b62b031802279ed8 }}/pravid:${{ github.sha }}'
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6ffca1e994594bdda62b2b8430befa50 }}
+        images: 'vinodtest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_fffd8034ab9e405babbcefae6317c347 }}/stage:${{ github.sha }}'
