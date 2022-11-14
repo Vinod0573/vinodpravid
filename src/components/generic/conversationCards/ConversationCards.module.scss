@@ -1,0 +1,117 @@
+$shadow: -2px 2.79364px 4.79364px rgba(0, 0, 0, 0.1);
+.wrapper {
+  display: grid;
+  padding: 20px 50px 30px 50px;
+  width: 100%;
+  .noConversation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    color: var(--primary-grey);
+    width: 100%;
+    height: 439.7px;
+
+    .message {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+  .span {
+    // background-color: red;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    box-shadow: $shadow;
+    /* z-index: -1; */
+  }
+  .bot,
+  .customer {
+    width: 90%;
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--primary-font);
+    margin-bottom: 20px;
+    box-shadow: $shadow;
+    display: flex;
+    border-radius: 6.87226px;
+  }
+  .bot {
+    justify-self: flex-start;
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: white;
+    .span {
+      left: -5px;
+      top: -11px;
+      rotate: 60deg;
+      z-index: 1;
+      max-width: 15px;
+      max-height: 11px;
+      min-width: 15px;
+      min-height: 10px;
+      box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+      background-color: white;
+    }
+    .botMessage {
+      padding-right: 21px;
+      padding-left: 12px;
+      width: 100%;
+      div {
+        text-align: end;
+        font-weight: 400;
+        font-size: 10px;
+        font-family: var(--primary-font);
+      }
+    }
+  }
+  .customer {
+    background-color: white;
+    justify-self: flex-end;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    .customerMessage {
+      background-color: var(--secondary-color);
+      padding-left: 21px;
+      padding-right: 13px;
+      padding-top: 15px;
+      padding-bottom: 0px;
+      border-radius: 6.87226px;
+    }
+    .time {
+      text-align: end;
+      font-size: 10px;
+      font-weight: 400;
+      left: -10px;
+      font-family: var(--primary-font);
+      position: relative;
+      bottom: -10px;
+    }
+    .span {
+      left: calc(100% - 9px);
+      bottom: 4px;
+      rotate: 594deg;
+      max-width: 14px;
+      max-height: 11px;
+      min-width: 15px;
+      min-height: 14px;
+      box-shadow: -1px 1px 2px 0px rgba(0, 0, 0, 0.1);
+      //  z-index: -1;
+      background-color: var(--secondary-color);
+    }
+    .backgroundWhite {
+      background-color: white;
+    }
+  }
+}
+.background2 {
+  background-color: var(--secondary-color) !important;
+}

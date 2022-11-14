@@ -1,0 +1,93 @@
+.AgentWrapper .headingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0174ff;
+  margin-bottom: 1.5%;
+}
+.AgentWrapper .agentModal {
+  background: #ffffff;
+  box-shadow: 0px 226.596px 181.276px rgba(36, 69, 152, 0.05),
+    0px 114.714px 79.0252px rgba(36, 69, 152, 0.03375),
+    0px 45.3191px 29.4574px rgba(36, 69, 152, 0.025),
+    0px 9.91355px 10.48px rgba(36, 69, 152, 0.01625);
+  border-radius: 24.2389px;
+  width: 50%;
+  padding: 3vmax;
+  margin-left: auto;
+  margin: auto;
+}
+.AgentWrapper .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.AgentWrapper .donebtn {
+  width: 120px;
+  height: 40px;
+  background: #0174ff;
+  border-radius: 7px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.AgentWrapper .backIconDiv {
+  /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3%;
+    cursor: pointer; */
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+}
+.AgentWrapper .progressBarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 5%;
+}
+.AgentWrapper .mindMapContainer {
+  /* width: 95%; */
+
+  position: absolute;
+  background-color: #ffffff;
+  top: 10%;
+  z-index: 1;
+  height: 89%;
+  width: 93%;
+}
+.AgentWrapper .crossBtn {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3%;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  cursor: pointer;
+}
+.AgentWrapper .imgInMindMapContainer {
+  width: 100%;
+}
+.AgentWrapper .imgflow {
+  max-width: 100%;
+  max-height: 100%;
+}
+.AgentWrapper .iconbackAgentpage {
+  cursor: pointer;
+}
+.AgentWrapper .disablePointerEventUniversal {
+  pointer-events: none;
+  opacity: 0.3;
+}

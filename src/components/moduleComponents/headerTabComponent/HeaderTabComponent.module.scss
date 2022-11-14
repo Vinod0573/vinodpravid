@@ -1,0 +1,69 @@
+.headerTabDiv {
+  display: block;
+  padding-bottom: 0.5vmax;
+  padding-top: 0.5vmax;
+}
+
+.toggleTabComponent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.tabDiv {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.4vmax 0 0.4vmax 0;
+  color: #7a7979;
+}
+
+.horizonLine {
+  text-align: center;
+  height: 4px;
+  background: #0174ff;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.icon {
+  display: inline;
+  // padding-left: 0.4vmax;
+  padding-right: 0.4vmax;
+  cursor: pointer;
+}
+
+.titleTab {
+  padding: 0 1vmax;
+  align-items: center;
+}
+
+.activeTab {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.4vmax 0 0.4vmax 0;
+  color: #0174ff;
+}
+
+.subHeaderTopDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 0.6vmax 0 0.6vmax;
+  // background-color: white;
+}
+
+.disablePointerDiv {
+  pointer-events: none !important;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.hideDiv {
+  visibility: hidden;
+  pointer-events: none;
+}

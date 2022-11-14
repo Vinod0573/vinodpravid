@@ -1,0 +1,255 @@
+
+.homePageWrapperDej .positionChangingLogin{
+  position: absolute;
+  height: 0px;
+  top: 61vh;
+  left:6%;
+  z-index: 2;
+  }
+  
+  .homePageWrapperDej .LoginHomeButtonStyle{
+      background: #0174FF !important;
+      color: #ffffff;
+      border-radius: 25.3333px !important;
+      width: auto !important;
+      font-size: 1.2vmax !important;
+      font-weight: 900 !important;
+      padding-top: 0.6vmax !important;
+      padding-bottom: 0.6vmax !important;
+      padding-left: 1vmax !important;
+      padding-right: 1vmax !important;
+      font-family: 'Poppins', sans-serif !important;
+  }
+  
+  .homePageWrapperDej .positionSignUp{
+      position: absolute;
+      height: 0px;
+      top: 62vh;
+      left:20%;
+      z-index: 2;
+      color: #0174FF;
+  }
+  .homePageWrapperDej .positionLogIn{
+      position: absolute;
+    height: 0px;
+    top: 5vh;
+    right:6%;
+    z-index: 2;
+  }
+  .homePageWrapperDej .LoginMainButtonStyle{
+      background: #0174FF !important;
+      border-radius: 6px !important;
+      color: white;
+      width: auto !important;
+      font-size: 1.2vmax !important;
+      font-weight: 900 !important;
+      padding-top: 0.6vmax !important;
+      padding-bottom: 0.6vmax !important;
+      padding-left: 1.5vmax !important;
+      padding-right: 1.5vmax !important;
+      font-family: 'Poppins', sans-serif !important;
+  }
+  .homePageWrapperDej .clientDiv{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute; 
+      top: 89vh;
+  }
+  
+  .homePageWrapperDej .clientImage{
+      width: 71%;
+      }
+  
+  .homePageWrapperDej .homePageLandingbackImg{
+      background-image: url("../../theme/assets/svg/onboarding/landingHomeImage.svg");
+      max-width: 100vw;
+      height: 128vh;
+      background-position: center; /* Center the image */ 
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  
+  .homePageWrapperDej .homePageHeading{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1vmax 5vmax;
+      background-color: #C2F7ED;
+  }
+  
+  .homePageLandingbackImg .homePageInfo{
+      padding: 5vmax 5vmax 5vmax 5vmax;
+  }
+  .homePageLandingbackImg .homePageInfo .homePageInfoH2{
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 3vmax;
+      color: #1E1E1E;
+      padding-bottom: 2vmax;
+  }
+  
+  .homePageLandingbackImg .homePageInfo .homePageInfoPara{
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2vmax;
+      color: #1E1E1E;
+  }
+  
+  .homePageLandingbackImg .bookDemoDiv{
+    padding-left: 5vmax;
+  }
+  
+  .homePageLandingbackImg .signupLinkPo{
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.2vmax;
+      text-align: center;
+      text-decoration-line: underline;
+      margin-left: 3vmax;
+      color: #1E1E1E;
+  }
+  .homePageWrapperDej .saarthiEventDivH2{
+    padding: 0.5vmax;
+    font-size: 22px;
+    background-color: #D22B2B;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  .homePageWrapperDej .homepageHeader-wrapper{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+  }
+  .homePageWrapperDej .saarthiEventDivH2 a{
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  
+  .homePageLandingbackImg .acceleratingLink{
+    color: #ffffff;
+  }
+  
+  @media(max-width: 480px) {
+      .homePageWrapperDej .homePageLandingbackImg {
+          background-image: url("../../theme/assets/svg/onboarding/landingPageImg.svg");
+          max-width: 100vw;
+          height: 87vh;
+          /* padding-right: 20px; */
+          background-position: right -100px; /* Right the image */
+          background-repeat: no-repeat; /* Do not repeat the image */
+          background-size: cover; /* Resize the background image to cover the entire container */
+      }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageLandingbackImg .homePageInfo{
+          padding: 42vmax 2vmax 5vmax 2vmax;
+      }
+      .homePageWrapperDej .saarthiEventDivH2{
+        font-size: 10px;
+        text-align: center;
+      }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageLandingbackImg .homePageInfo .homePageInfoPara{
+          font-size: 1.7vmax;
+          text-align: center;
+      }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageLandingbackImg .homePageInfo .homePageInfoH2{
+          font-size: 3vmax;
+          text-align: center;
+      }
+    }
+    @media(max-width: 480px) {
+      .homePageWrapperDej .pravidLogo{
+          width: 120px;
+          height: 50px;
+      }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageWrapperDej .LoginMainButtonStyle{
+          font-size: 2vmax !important;
+      }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageLandingbackImg .bookDemoDiv{
+          padding-left: 20vmax;
+          }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageWrapperDej .LoginHomeButtonStyle{
+          font-size: 1.6vmax !important;
+          }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageWrapperDej .clientDiv{
+          top: 82vh;
+          width: 100%;
+          }
+    }
+  
+    @media(max-width: 480px) {
+      .homePageWrapperDej .clientImage{
+          width: 100%;
+          justify-content: center;
+          }
+    }
+  
+    /* The Modal (background) */
+    @media(max-width: 480px) {
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+  }
+  
+  @media(max-width: 480px) {
+    /* Modal Content */
+    .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+  }
+  
+  @media(max-width: 480px) {
+    /* The Close Button */
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  }
+  
+  @media(max-width: 480px) {
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }

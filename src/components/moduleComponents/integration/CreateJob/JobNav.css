@@ -1,0 +1,166 @@
+.JobNav .JobNav-div {
+  /* position: absolute;
+
+     width: 1209px;
+     height: 53px;
+     left: 6%;
+     top: 160px; */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 36px;
+  margin-top: 2%;
+  padding: 8px;
+  color: #000000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.JobNav .JobNav-innerdiv {
+  cursor: pointer;
+  text-decoration: underline 5px solid skyblue;
+  text-underline-offset: 4px;
+  background-color: #ffffff;
+
+  height: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.JobNav .innerdiv {
+  width: auto;
+  height: 55px;
+  padding: 10px;
+}
+
+.JobNav .disablediv {
+  opacity: 0.2;
+  /* cursor: pointer; */
+}
+
+/* .JobNav-div-dis{
+    opacity: 0.2;
+    position: absolute;
+
+width: 1209px;
+height: 53px;
+left: 110px;
+top: 200px;
+
+
+font-family: "Roboto";
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 36px;
+padding: 8px;
+color: #000000;
+    display: flex;
+    justify-content: space-around;
+    
+} */
+/* .disCursor{
+    cursor: none;
+} */
+/* .appc{
+    cursor: pointer;
+} */
+.JobNav .disablePointerEvent {
+  pointer-events: none;
+  opacity: 0.2;
+}
+.JobNav .isExeHisBlur {
+  opacity: 0.2;
+}
+.JobNav .btn-div-jobNav {
+  /* position: absolute;
+    left: 48%;
+    right: 42.76%;
+   top: 95%;
+   bottom: 3.39%; */
+}
+.JobNav .btn-div-jobNav button {
+  width: 100px;
+  height: 35px;
+  background-color: #2c9f19;
+  /* opacity: 0.3; */
+  margin-left: 25px;
+  margin-top: 22px;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #52df57;
+  color: #ffffff;
+}
+.JobNav button:active {
+  background-color: #52df57;
+  box-shadow: 0 5px #666;
+  /* transform: translateY(4px); */
+  transform: scale(0.8);
+}
+.JobNav .btn-hidden {
+  visibility: hidden;
+}
+.JobNav .sfdc-div {
+  width: 48%;
+}
+.JobNav .div-outer-connector {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.JobNav .btn-savejobNav {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+}
+
+.JobNav .btn-savejobNav button {
+  width: 100px;
+  height: 35px;
+  background-color: #2c9f19;
+  border-radius: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid #52df57;
+  color: #ffffff;
+  /* margin-top: 20px; */
+  cursor: pointer;
+}
+.JobNav .div-tablehistory-jobNav {
+  /* width: 100%; */
+}
+.JobNav .gobackbtn {
+  display: flex;
+  font-weight: 500;
+  cursor: pointer;
+  height: 40px;
+  width: 2%;
+}
+
+.JobNav .jobNameRunButton {
+  padding: 3px 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.2098px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #2c9f19;
+  border-radius: 7.25594px;
+  width: 170px !important;
+}
+.JobNav .backIconJobNav {
+  position: absolute;
+  top: 10%;
+  right: 3.5%;
+  cursor: pointer;
+}

@@ -1,0 +1,162 @@
+/* .dialTimeWrapper .outerDivDialTime{
+    font-family: 'Roboto';
+     font-style: normal;
+     height: 300px;
+    overflow-y: scroll;
+
+} */
+.dialTimeWrapper .calender {
+  position: relative;
+  margin-left: -12%;
+}
+.dialTimeWrapper .dialRowDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 3%;
+  position: relative;
+}
+.dialTimeWrapper .headingDivDial {
+  font-weight: 500;
+  font-size: 16px;
+  color: #9e9e9e;
+  margin-bottom: 10px;
+}
+.dialTimeWrapper .dialTimeColumnDiv {
+  width: 20%;
+}
+.dialTimeWrapper .inputBorderForm {
+  display: flex;
+  align-items: center;
+  border: 1px solid #9a9a9a;
+  border-radius: 7px;
+  padding: 2px 7px;
+}
+.dialTimeWrapper .formInputArea {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 13px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+.dialTimeWrapper .arrow {
+  position: absolute;
+  top: 58%;
+  right: 30%;
+}
+.dialTimeWrapper .timeZoneDiv {
+  display: flex;
+  align-items: center;
+  width: 169px;
+}
+.dialTimeWrapper .paraTime {
+  padding-left: 11%;
+  font-weight: 600;
+  font-size: 16px;
+  color: #0a0a0a;
+}
+.dialTimeWrapper .togglePara {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+.dialTimeWrapper input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dialTimeWrapper .preEmidropdown {
+  width: 100.31px;
+  height: 30px;
+  background: #ffffff;
+  border: none !important;
+  box-sizing: border-box;
+  border-radius: 6.87633px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  left: 0px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+}
+.dialTimeWrapper .dropdowndListArea {
+  width: 100% !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 5.27236px;
+  border: none !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.12);
+  height: 100px;
+  overflow-y: scroll;
+}
+.dialTimeWrapper .containerDropDown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dialTimeWrapper .perDial {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0a0a0a;
+  margin: 0 8px;
+}
+
+.dialTimeWrapper .react-datepicker__input-container input {
+  border: none !important;
+  width: 100%;
+  cursor: pointer;
+}
+/* .dialTimeWrapper .calendarSaarthiTopdiv {
+    position: absolute;
+    top: -50px;
+    left: 5%;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 96.7895px 77.4316px rgb(36 69 152 / 5%), 0px 48.9997px 33.7554px rgb(36 69 152 / 3%), 0px 19.3579px 12.5826px rgb(36 69 152 / 3%), 0px 4.23454px 4.47652px rgb(36 69 152 / 2%);
+    border-radius: 25px;
+    z-index: 2;
+} */
+.dialTimeWrapper .fdCalendarArea .fdCalendarDateRange .dateRangeAreafltr {
+  background: #ecf1f4;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4.74074px;
+  /* padding: 3px 20px; */
+  cursor: pointer;
+}
+
+.dialTimeWrapper
+  .fdCalendarArea
+  .fdCalendarDateRange
+  .dateRangeAreafltr
+  + span
+  img {
+  width: 18px !important;
+}
+.accordion__content {
+  background-color: white;
+  transition: max-height 0.6s ease;
+}
+.dialTimeWrapper
+  .react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list {
+  list-style: none;
+  margin: 0;
+  height: calc(195px + (1.7rem / 2));
+  overflow-y: scroll;
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+  height: 150px;
+  box-sizing: content-box;
+}

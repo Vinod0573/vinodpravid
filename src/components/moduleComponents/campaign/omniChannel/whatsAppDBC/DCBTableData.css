@@ -1,0 +1,167 @@
+.dcb-wrapperWhatsApp{
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  height: 28vh;
+  overflow-y: scroll;
+}
+
+.dcb-wrapperWhatsApp .connected-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.dcb-wrapperWhatsApp .initial-campaign-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  width: 97%;
+  padding: 6px 14px;
+  background-color: #DDECFF;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* .dcb-wrapperWhatsApp .scheduler-radio{
+    margin: 10px;
+} */
+/* .dcb-wrapperWhatsApp .scheduler-radio:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #ffffff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #0174FF;
+} */
+
+/* .dcb-wrapperWhatsApp .scheduler-radio:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #9E9E9E;
+} */
+/* .dcb-wrapperWhatsApp .scheduler-radio{
+   background-color:red;
+} */
+
+.dcb-wrapperWhatsApp .pre {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 28px;
+  margin-right: 10px;
+}
+
+.dcb-wrapperWhatsApp .post {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.dcb-wrapperWhatsApp .radio-active {
+  color: #0174ff;
+}
+
+.dcb-wrapperWhatsApp .toggle-switch-inner::after {
+  background-color: #b8b8b8;
+  color: #ffffff;
+}
+
+.retry-time-hide .dcb-condition-wrapper .multi-border-bs {
+  margin-top: 20px;
+}
+
+.retry-time-hide .dcb-condition-wrapper .multi-border {
+  margin-top: 20px;
+}
+
+.dcb-wrapperWhatsApp .checkbox-margin-bottom {
+  /* margin-bottom: 25px; */
+  margin-top: 0px;
+}
+.dcb-wrapperWhatsApp .dbcSerachInput{
+  width: 28%;
+}
+.dcb-wrapperWhatsApp .connectedNotConnectedFlow{
+  display: flex;
+  align-items: center;
+
+}
+.dcb-wrapperWhatsApp .paraNonConnectedflow{
+  padding-left: 5px;
+}
+.dcb-wrapperWhatsApp .scheduler-radiodiv{
+  padding-left :5px ;
+}
+.dcb-wrapperWhatsApp .followpIconDiv{
+  display: flex;
+  align-items: center;
+}
+.dcb-wrapperWhatsApp .followpIconDivpara{
+  font-size: 14px;
+  color: #0A0A0A;
+  padding-right: 8px;
+}
+
+/* .retry-time-setion .checkbox-container .multi-border-bs{
+    margin-top:10px ;
+}
+
+.retry-time-setion .checkbox-container {
+    margin-top: 10px;
+} */
+.dcb-wrapperWhatsApp .multi-border-bs {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: transparent !important;
+  /* background-color: #6C7A88; */
+  /* border: 1.76922px solid #FFFFFF; */
+  border: 1px solid #9E9E9E !important;
+  border-radius: 3px;
+  box-shadow: 0px 4px 10px #e7cb6033;
+}
+.dcb-wrapperWhatsApp .multi-border {
+  position: absolute;
+  top: -7px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #0174FF !important;
+  border: none !important;
+  border-radius: 3px;
+}
+.dcb-wrapperWhatsApp .multi-border::after {
+  content: '';
+  position: absolute;
+  display: none;
+  width: 9px;
+  height: 3px;
+  border-left: 2px solid #FFFFFF !important;
+  border-bottom: 2px solid #FFFFFF !important;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  top: 7px;
+  left: 5px;
+}

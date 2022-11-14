@@ -1,0 +1,71 @@
+.InitiateCallWrapper .addBtnDiv {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 8%;
+  left: 88%;
+}
+.InitiateCallWrapper .InitiateCallDiv {
+  width: 88vw;
+  height: 400px;
+  background: #ffffff;
+  box-shadow: 0px 85.0745px 68.0596px rgba(36, 69, 152, 0.05),
+    0px 43.069px 29.6697px rgba(36, 69, 152, 0.03375),
+    0px 17.0149px 11.0597px rgba(36, 69, 152, 0.025),
+    0px 3.72201px 3.9347px rgba(36, 69, 152, 0.01625);
+  border-radius: 0px 0px 7px 7px;
+  position: relative;
+}
+.InitiateCallWrapper .initiate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-top: 6%; */
+}
+.InitiateCallWrapper .initiatingCallBar {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+}
+.InitiateCallWrapper .bardiv {
+  margin-left: 1%;
+}
+.InitiateCallWrapper .callCompleteDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15%;
+}
+.InitiateCallWrapper .paraDiv {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+  color: #000000;
+}
+.InitiateCallWrapper .callCompleteOuterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.InitiateCallWrapper .buttoncancelLoggerdemo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+  padding-bottom: 10px;
+}
+.InitiateCallWrapper .cancelInbtn {
+  width: 92px;
+  height: 28px;
+  border: none;
+  font-size: 18px;
+  border-radius: 7px;
+  color: #ffffff;
+  background-color: #0174ff;
+  cursor: pointer;
+}

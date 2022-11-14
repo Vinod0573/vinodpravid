@@ -1,0 +1,72 @@
+.initialScreenWrapperScheduler{
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.initialScreenWrapperScheduler .initial{
+   
+}
+.initialScreenWrapperScheduler .initialScreenOuterDiv{
+    width: 96%;
+    margin: 3% 2% 0% 2%;
+    background: #FFFFFF;
+border: 0.581742px solid #D8D8D8;
+box-shadow: 0px 71.3652px 57.0921px rgba(36, 69, 152, 0.05), 0px 36.1286px 24.8886px rgba(36, 69, 152, 0.03375), 0px 14.273px 9.27747px rgba(36, 69, 152, 0.025), 0px 3.12223px 3.30064px rgba(36, 69, 152, 0.01625);
+border-radius: 7px;
+}
+.initialScreenWrapperScheduler .initialIconScheduler{
+    display: flex;
+    justify-content: center;
+   padding-top: 5%;
+}
+.initialScreenWrapperScheduler .initialScreenIconsrc{
+    width: 15%;
+}
+.initialScreenWrapperScheduler .initialParaScheduler{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5vmax;
+color: #000000;
+text-align: center;
+padding-top: 2% ;
+padding-bottom: 4%;
+
+}
+.initialScreenWrapperScheduler .initialProgressBarScheduler{
+    display: flex;
+    justify-content: center;
+}
+.initialScreenWrapperScheduler .BtnDivScheduler{
+    display: flex;
+    justify-content: center;
+    margin: 3% 0;
+}
+.initialScreenWrapperScheduler .btnSchedulerInitial{
+    border: none;
+    width: 15%;
+    padding: 1% 2%;
+    background: #0174FF;
+   border-radius: 7px;
+   color: #FFFFFF;
+   font-weight: 600;
+   font-size: 16px;
+   cursor: pointer;
+
+}
+.initial .backIcon{
+    /* position: absolute;
+    top: 12%;
+    right: 4%; */
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4.2%;
+    margin-top: 0.8%;
+    cursor: pointer;
+  }
+  .initial .icon{
+    width: 35px
+  }

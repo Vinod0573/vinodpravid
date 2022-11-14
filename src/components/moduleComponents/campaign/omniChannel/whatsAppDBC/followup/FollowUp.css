@@ -1,0 +1,20 @@
+.followupWp-wrapper .followUp-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.followupWp-wrapper .para-FollowUp{
+    color: black;
+    font-size: 14px;
+    padding-left: 10%;
+}
+.followupWp-wrapper .component-flowUp {
+    padding-left: 7.5%;
+}
+.followupWp-wrapper .componentDiv-flowUp{
+    padding-left:  5%;
+}
+.followupWp-wrapper .disableComponentflow{
+    pointer-events: none;
+}

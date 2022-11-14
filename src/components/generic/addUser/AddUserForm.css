@@ -1,0 +1,139 @@
+.addUserFormTopDiv {
+  background: #ffffff;
+  box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05),
+    0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375),
+    0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025),
+    0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+  border-radius: 31px;
+  max-height: 57vh;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 20%;
+  text-align: center;
+  overflow-y: auto;
+  padding: 20px 50px 30px 50px;
+}
+.userCredentialsTopOneForm {
+  margin: 0px 10px;
+}
+
+.userCredentialsOneForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.userCredentials {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.addRemoveUserIcon span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.addUserButton {
+  text-align: right;
+  padding-bottom: 15px;
+  font-family: "Roboto";
+  /* font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px; */
+}
+
+.addUserFormArea {
+  max-height: 35vh;
+  min-height: 20vh;
+  overflow-y: auto;
+}
+
+.createAndCancelButtonDiv {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.removeButtonStyle {
+  color: #000000;
+  background: linear-gradient(
+      317.7deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 105.18%
+    ),
+    #ffffff;
+  background-blend-mode: soft-light, normal;
+  box-shadow: inset -2.5px -2.5px 5px #d8c5ed, inset 2.5px 2.5px 5px #ead0f1;
+  border-radius: 5px;
+  width: 30px !important;
+  height: 12px !important;
+  text-align: center;
+  padding-bottom: 8px;
+}
+#name0 {
+  margin-right: 2px;
+}
+/* #FF359A */
+.createUserButtonStyle {
+  padding: 7px 20px;
+  font-weight: normal;
+  background: #0174ff;
+  box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 4px 2px rgba(255, 255, 255, 0.25),
+    inset 4px 4px 26px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(80px);
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+.cancelButtonStyle {
+  padding: 5px 25px;
+  font-weight: normal;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: inset 0px -4px 2px rgba(0, 0, 0, 0.05),
+    inset 0px 4px 2px rgba(255, 255, 255, 0.25),
+    inset 4px 4px 26px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(80px);
+  border-radius: 7px;
+}
+
+.parentClassNotValidated {
+  border: 1px solid red;
+}
+.parentClassValidated {
+  border: 0.906992px solid #000000;
+}
+
+.errorMessage {
+  margin-bottom: 30px;
+}
+
+.extraErrorMessageClassName {
+  justify-content: center;
+}
+.formGroupAU {
+  padding-right: 10px;
+}
+.emailBoxLargerAF {
+  flex: 1 1 33%;
+}
+
+.extraStyleClassAUF {
+  padding: 11px 5px;
+}

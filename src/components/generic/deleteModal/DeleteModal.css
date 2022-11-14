@@ -1,0 +1,54 @@
+.delete-modal-wrapper{
+    position: absolute;
+    width: 700px;
+    height: 200px;
+    left: 380px;
+    top: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 9.62245px 14.4337px -2.40561px rgba(0, 0, 0, 0.12), 0px 4.81122px 9.62245px -2.40561px rgba(0, 0, 0, 0.07);
+    border-radius: 19.2449px;
+    box-sizing: border-box;
+}
+
+.delete-modal-wrapper .delete-inner-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6.5%;
+    font-size: 15px;
+    font-weight: 700;
+    flex-direction: column;
+}
+
+.delete-modal-wrapper .delete-footer-btn{
+    width: 60px;
+    height: 30px;
+    background-color: black;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 30px;
+   cursor: pointer;
+}
+.success{
+    background-color: #C1E79C !important;
+    border: 1px solid #C1E79C;
+    color: black !important; 
+}
+
+.delete-modal-wrapper  .delete-header-div{
+    position: absolute;
+    top:20px;
+    right: 30px;
+   
+}
+.delete-modal-wrapper .cross-btn{
+    cursor: pointer;
+}
+.delete-modal-wrapper .msgDiv{
+    color: red;
+    text-align: center;
+    font-size: 13px ;
+    font-weight: 400;
+    
+}

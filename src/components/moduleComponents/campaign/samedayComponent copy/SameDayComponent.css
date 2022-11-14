@@ -1,0 +1,41 @@
+.sameDay-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.sameDay-wrapper .day-div{
+    width: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #0174FF;
+  padding: 5px;
+  border: 0.652555px solid rgba(218, 218, 218, 0.7);
+    border-radius: 4.56788px;
+    margin: 10px;
+    cursor: pointer;
+ }
+
+ .sameDay-wrapper .isActive{
+    background: #0174FF;
+    color:white;
+ }
+
+ .sameDay-wrapper .maxAttemptsWrapper .outerMaxDiv{
+     height: 25px
+ }
+
+ .sameDay-wrapper .maxAttemptsWrapper .inputDiv{
+     height: 25px;
+ }
+
+ .sameDay-wrapper .same-disable{
+    opacity: 0.5;
+    cursor: not-allowed;
+ }

@@ -1,0 +1,117 @@
+.createCampaignModelWrapper .createCampaignModelWrapperConfig{
+    background: #FFFFFF;
+box-shadow: 0px 239.71px 191.768px rgba(36, 69, 152, 0.05), 0px 121.353px 83.5987px rgba(36, 69, 152, 0.03375), 0px 47.9419px 31.1622px rgba(36, 69, 152, 0.025), 0px 10.4873px 11.0866px rgba(36, 69, 152, 0.01625);
+border-radius: 7px;
+padding: 2vmax 3vmax;
+width: 94%;
+margin: 0 auto;
+}
+/* .createCampaignModelWrapper .createCampaignModelHeader{
+    color: #773EFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    text-align: center;
+    padding: 2vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.createCampaignModelWrapper .ccConfiguration{
+    width:  60%;
+}
+.createCampaignModelWrapper .ccConfigRightSide{
+text-align: right;
+}
+
+.createCampaignModelWrapper .titleCpCPM{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.8vmax;
+    color: #0174FF !important;
+}
+
+.createCampaignModelWrapper .createCampaignButtonStyleJp{
+    background: #0174FF !important;
+    color: #ffffff;
+    border-radius: 7.3333px !important;
+    width: 200px !important;
+    font-size: 1.2vmax !important;
+    font-weight: 900 !important;
+    padding-top: 0.5vmax !important;
+    padding-bottom: 0.5vmax !important;
+}
+.createCampaignModelWrapper .createColorCampaignButtonStyleJp{
+    background: #D8D8D8 !important;
+    color: #9E9E9E;
+    border-radius: 7.3333px !important;
+    width: 200px !important;
+    font-size: 1.2vmax !important;
+    font-weight: 900 !important;
+    padding-top: 0.5vmax !important;
+    padding-bottom: 0.5vmax !important;
+}
+
+.createCampaignModelWrapper .createCampaignButtonStyleJp:hover{
+    opacity: 0.8;
+}
+.createCampaignModelWrapper .ccUploadDataButtonStyleJp{
+    background: #0174FF !important;
+    color: #ffffff;
+    border-radius: 7.3333px !important;
+    width: 115px !important;
+    font-size: 1.2vmax !important;
+    font-weight: 900 !important;
+    padding-top: 0.5vmax !important;
+    padding-bottom: 0.5vmax !important;
+    margin-right: 2vmax !important;
+}
+.createCampaignModelWrapper .ccColorUploadDataButtonStyleJp{
+    background: #D8D8D8 !important;
+    color: #9E9E9E;
+    border-radius: 7.3333px !important;
+    width: 115px !important;
+    font-size: 1.2vmax !important;
+    font-weight: 900 !important;
+    padding-top: 0.5vmax !important;
+    padding-bottom: 0.5vmax !important;
+}
+
+.createCampaignModelWrapper .ccUploadDataButtonStyleJp:hover{
+    opacity: 0.8;
+}
+
+
+.createCampaignModelWrapper .ccUploadArea{
+    margin : 0 auto;
+    margin-top: 1.2vmax;
+    width: 94%;
+    background: #FFFFFF;
+    box-shadow: 0px 239.71px 191.768px rgba(36, 69, 152, 0.05), 0px 121.353px 83.5987px rgba(36, 69, 152, 0.03375), 0px 47.9419px 31.1622px rgba(36, 69, 152, 0.025), 0px 10.4873px 11.0866px rgba(36, 69, 152, 0.01625);
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vmax 2vmax;
+}
+
+.createCampaignModelWrapper .back-img-jp{
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.createCampaignModelWrapper .cccamapignNameArea{
+    color:#0174FF;
+  min-height:30px;
+box-sizing: border-box;
+border-radius: 14.0524px;
+font-size: 1.2vmax;
+padding: 5px 10px;
+border: 0.49px solid #D8D8D8;
+border-radius: 10px;
+}
+.createCampaignModelWrapper .colorCampaignNamePara{
+    color: #D8D8D8;
+}

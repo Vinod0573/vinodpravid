@@ -1,0 +1,33 @@
+$greyText: #7a7979;
+.wrapper {
+  background-color: white;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
+  margin-top: 5px;
+  padding: 10px;
+
+  .each {
+    .title {
+      margin-bottom: 6px;
+      color: $greyText;
+    }
+    .message {
+      background-color: var(--secondary-color);
+      display: inline-block;
+      border-radius: 4px;
+      padding: 4px;
+      padding-right: 16px;
+      img {
+        position: relative;
+        bottom: 16px;
+        left: 10px;
+      }
+    }
+    .variable {
+      color: var(--primary-color);
+      margin-left: 3px;
+    }
+  }
+}

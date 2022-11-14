@@ -1,0 +1,193 @@
+.reguestDemoWrapper .requestDemoDiv{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Open sans';
+}
+
+.reguestDemoWrapper .paraBold{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 1%;
+}
+.reguestDemoWrapper .paraSmall{
+  font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 20px;
+   margin-top: 2%;
+}
+.reguestDemoWrapper .spanColor{
+    color: #0174FF;
+    font-size: 20px;
+}
+.reguestDemoWrapper .secondDivContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.reguestDemoWrapper .inputFieldContainer{
+    width: 85%;
+    height: 400px;
+  
+    display: grid;
+    grid-template-columns: auto auto;
+   
+    
+}
+.reguestDemoWrapper .secondInner{
+    width: 55%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FBFBFB;
+}
+.reguestDemoWrapper .starRed{
+    color: red;
+}
+.reguestDemoWrapper .inputBoxRequestDemo{
+    width: 90%;
+    height: 40px;
+    padding-left: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1.58246px solid #A7A7A7;
+    margin-top: 5%;
+   border-radius: 7px;
+  }
+  .reguestDemoWrapper .inputBoxRequestDemoIn{
+    width: 99%;
+    border: none;
+    outline: none;
+  }
+ 
+  .reguestDemoWrapper .btncontainer{
+      display: flex;
+      justify-content: flex-end;
+      width: 90%;
+      margin-right: 12%;
+  }
+  .reguestDemoWrapper .btnDesign{
+    width: 180px !important;
+    height: 40px;
+    background: #1E1E1E;
+    border-radius: 7px;
+    font-family: 'Open sans';
+   font-style: normal;
+  font-weight: 400;
+  font-size: 16px;  
+  color: #FFFFFF;
+  }
+  .reguestDemoWrapper .errorMessageLP{
+    height: 10px;
+    width: 300px;
+  }
+  .reguestDemoWrapper .disable-pointer-events{
+    pointer-events: none;
+    opacity:0.2;
+    }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .paraBold{
+        font-size: 16px;
+        font-weight: 700 bold;
+        text-align: center;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .paraSmall{
+        font-size: 12px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .spanColor{
+        font-size: 12px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .secondInner{
+        width: 100%;
+        height: 300px;
+        margin-left: 10%;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .inputFieldContainer{
+        width: 90%;
+        height: 200px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .inputFieldContainer .label{
+        font-size: 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .inputBoxRequestDemo{
+        width: 90%;
+        height: 30px;
+        font-weight: 200;
+        font-size: 14px;
+        border-radius: 2px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .inputBoxRequestDemoIn{
+        height: 26px;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .btncontainer{
+        margin: 10% 8% 10% 8%;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .btnDesign{
+        width: 150px !important;
+        height: 30px;
+        font-size: 16px;  
+        font-family: 'Poppins', sans-serif;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .secondDivContainer{
+      margin: 5% 5% 0 0;
+  }
+  }
+
+  @media(max-width: 480px) {
+    .reguestDemoWrapper .errorMessageLP{
+      height: 5px;
+      width: 100px;
+    }
+    .errorTopDiv p {
+      color: red;
+      font-size: 5px;
+      position: relative;
+      top: 0px;
+  }
+
+  .reguestDemoWrapper .disable-pointer-events{
+    pointer-events: none;
+    opacity:0.2;
+    }
+  }
+
+

@@ -1,0 +1,120 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx": true
+    },
+    // "ecmaVersion": 12,
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "plugins": ["react", "unused-imports"], // "prettier", "unicorn", "check-file"
+  "rules": {
+    // "indent": "warn",
+
+    "no-unused-vars": "warn", // used "unused-imports/no-unused-vars"
+    "eqeqeq": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-vars": "error",
+    "unused-imports/no-unused-imports":   "warn" ,
+    "unused-imports/no-unused-vars": [
+      "warn"   ,// "error",
+      {
+        "vars": "all",
+        "varsIgnorePattern": "^_",
+        "args": "after-used",
+        "argsIgnorePattern": "^_",
+        "ignoreRestSiblings": true,
+        "destructuredArrayIgnorePattern": "[A-Z]"
+      }
+    ],
+    "no-console": [
+      "warn",
+      {
+        "allow": ["info", "warn", "error"]
+      }
+    ],
+    "react/prop-types": [
+      "off",
+      {
+        "ignore": [],
+        "customValidators": null,
+        "skipUndeclared": null
+      }
+    ], // prop validation off
+    "no-undef": [
+      "off",
+      {
+        "typeof": false
+      }
+    ], // error: 120
+    "react/jsx-key": "error", //error: 57
+    "react/jsx-filename-extension":[2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+    // "check-file/folder-match-with-fex": [
+    //   "error",
+    //   {
+    //     "*.test.{js,jsx,ts,tsx}": "**/__tests__/",
+    //     "*.styled.{jsx,tsx}": "**/pages/"
+    //   }
+    // ],
+    // "check-file/filename-naming-convention": [
+    //   "error",
+    //   {
+    //     "**/*.{jsx,tsx}": "CAMEL_CASE",
+    //     "**/*.{js,ts}": "CAMEL_CASE",
+    //     "**/*.{css}": "PASCAL_CASE"
+    //   },
+    //   {
+    //     "ignoreMiddleExtensions": true
+    //   }
+    // ],
+
+    // "check-file/folder-naming-convention": [
+    //   "error",
+    //   {
+    //     "src/**/": "CAMEL_CASE",
+    //     "mocks/*/": "KEBAB_CASE"
+    //   }
+    // ]
+
+    // "filename-rules/match": [1, { "css": "pascalcase" }]
+
+    // "unicorn/filename-case": [
+    //   "error",
+    //   {
+    //     "case": "pascalCase",
+    //     "ignore": ["/*.jsx"]
+    //   }
+    // ]
+    // "check-file/filename-naming-convention": [
+    //   "error",
+    //   {
+    //     "src/*.{jsx,tsx}": "SNAKE_CASE"
+    //   }
+    // ],
+    // "check-file/folder-naming-convention": [
+    //   "error",
+    //   {
+    //     "src/**/*": "SNAKE_CASE"
+    //   }
+    // ]
+   
+   
+  
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

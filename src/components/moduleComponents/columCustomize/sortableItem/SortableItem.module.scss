@@ -1,0 +1,126 @@
+.listitemfordndn {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #ddecff;
+  justify-content: space-between;
+  border-radius: 4px;
+  position: relative;
+  z-index: 1001;
+  margin: auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+  img {
+    margin-right: 0.7em;
+  }
+
+  margin-bottom: 3px;
+  margin-bottom: 3px;
+  cursor: grab!important;
+}
+
+
+.titlediv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  img {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  p {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #7a7979;
+  }
+}
+
+.listfordnnd {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.centerwrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 94%;
+  max-height: 380px;
+  overflow: scroll;
+  margin-left: 0.2em;
+}
+
+.selectedcolumtitl {
+  color: #0174ff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.wrapperfordndtop {
+  display: flex;
+  height: 380px;
+  flex-direction: column;
+  align-items: center;
+  width: 55%;
+  box-shadow: 0px 4px 4px 0px #0000001a;
+  border: 0.5px solid #d8d8d8;
+  border-radius: 5px;
+  margin-right: 2.5em;
+}
+img.crossx{
+cursor: pointer!important;
+}
+
+.tooltip {
+  
+  position: relative;
+  display: inline-block;
+  box-shadow: rgba(16, 16, 16, 0.1) 5px 100px 240px;
+
+  &:hover .tooltiptext {
+    visibility: visible;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .tooltiptext {
+    overflow: visible!important;
+    visibility: hidden;
+    font-size: 9px;
+    background-color: rgba(0, 0, 0, 0.982);
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2px 4px;
+    position: absolute;
+    z-index: 10000000000000005!important;
+    top: 24px;
+    left:-90px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    white-space:nowrap;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -1px;
+      right: 12px;
+      margin-top: -5px;
+      border-width: 3px;
+      border-style: solid;
+      border-color: transparent rgb(0, 0, 0) transparent transparent;
+      z-index: 1000000000000005!important;
+      transform: rotate(90deg);
+    }
+
+    
+  }
+}

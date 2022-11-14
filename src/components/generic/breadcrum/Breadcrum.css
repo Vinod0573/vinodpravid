@@ -1,0 +1,36 @@
+.breadcrum-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px 0px 25px;
+    margin-bottom: 40px;
+}
+
+.breadcrum-wrapper .breadcrum{
+   font-size: 18px;
+    padding: 10px;
+    /* margin: 0% 2% 0% 2%; */
+    font-weight: 700;
+}
+
+.breadcrum-wrapper .active{
+    text-decoration: underline;
+    color: #0174FF;
+}
+.breadcrum-wrapper .breadcrum:hover{
+    text-decoration: underline;
+    color: #0174FF;
+
+}
+
+.breadcrum-wrapper .breadcrum-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.breadcrum-wrapper .forward-icon{
+    transform: scaleX(-1);
+   
+}

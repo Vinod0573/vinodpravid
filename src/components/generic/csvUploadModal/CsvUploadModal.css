@@ -1,0 +1,58 @@
+.CsvUploadModal-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 300px;
+    overflow-y: scroll;
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 7px;
+    flex-direction: column;
+    box-shadow: 0px 97.8587px 78.2869px rgba(36, 69, 152, 0.05), 0px 49.541px 34.1282px rgba(36, 69, 152, 0.03375), 0px 19.5717px 12.7216px rgba(36, 69, 152, 0.025), 0px 4.28132px 4.52596px rgba(36, 69, 152, 0.01625);
+border-radius: 7px;
+}
+
+.CsvUploadModal-wrapper .upload-section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    height: 50%;
+    background-color: #DDECFF;
+    overflow-y: scroll;
+    border-radius: 7px;
+
+}
+
+.CsvUploadModal-wrapper .csv-uploaded-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.CsvUploadModal-wrapper .csv-uploaded-img{
+ width: 10%;
+}
+
+.CsvUploadModal-wrapper .csv-uploaded-label{
+    width: 40%;
+}
+
+.CsvUploadModal-wrapper .isuploaded{
+    width: 40%;
+}
+
+.CsvUploadModal-wrapper .csv-upload-status-img{
+    width: 10%;
+}
+.CsvUploadModal-wrapper .blank-div{
+    height: 50%;
+    width: 100%;
+    background-color: #F8F9FA;
+    margin: 5px 0px;
+}

@@ -1,0 +1,146 @@
+.executeAgentCallWrapper .executeCallDiv {
+  width: 88vw;
+  height: 400px;
+  background: #ffffff;
+  box-shadow: 0px 85.0745px 68.0596px rgba(36, 69, 152, 0.05),
+    0px 43.069px 29.6697px rgba(36, 69, 152, 0.03375),
+    0px 17.0149px 11.0597px rgba(36, 69, 152, 0.025),
+    0px 3.72201px 3.9347px rgba(36, 69, 152, 0.01625);
+  border-radius: 0px 0px 7px 7px;
+}
+.executeAgentCallWrapper .addBtnDiv {
+  width: 100px;
+  height: 30px;
+  position: relative;
+  top: 8%;
+  left: 88%;
+}
+.executeAgentCallWrapper .logoDiv {
+  display: flex;
+  width: 60%;
+  margin-left: 8%;
+  align-items: center;
+}
+.executeAgentCallWrapper .headLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+
+  color: #000000;
+}
+.executeAgentCallWrapper .preEmi {
+  width: 100px;
+  height: 30px;
+  background: #ffffff;
+  border: 1.06025px solid gray;
+  box-sizing: border-box;
+  border-radius: 7.42176px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 1%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  color: #000000;
+}
+.executeAgentCallWrapper .inputFieldDiv {
+  display: flex;
+  width: 70%;
+  margin: 2% 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+.executeAgentCallWrapper .fieldDiv {
+  margin-top: 8%;
+}
+.executeAgentCallWrapper .mobnumberInput {
+  width: 250px;
+  /* width: 50%; */
+  height: 35px;
+  background: #ffffff;
+  border: 1.92137px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.executeAgentCallWrapper .emiAmountInput {
+  width: 180px;
+  height: 35px;
+  background: #ffffff;
+  border: 1.92137px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+.executeAgentCallWrapper .minusSign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.executeAgentCallWrapper .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.executeAgentCallWrapper .exeBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 180px;
+  height: 50px;
+  background: #ffffff;
+  box-shadow: 0px 10.1048px 15.1572px -2.52621px rgba(0, 0, 0, 0.12),
+    0px 5.05241px 10.1048px -2.52621px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+}
+.executeAgentCallWrapper .InputDiv {
+  height: 70%;
+}
+.executeAgentCallWrapper .exeBtn:hover {
+  background-color: #0174ff;
+
+  color: #ffffff;
+}
+.executeAgentCallWrapper input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.executeAgentCallWrapper .errorDiv {
+  height: 19px;
+}
+.executeAgentCallWrapper .labelforinput {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 10px;
+  padding-bottom: 1px;
+  font-size: 14px;
+}
+.executeAgentCallWrapper .errorTopDiv p {
+  font-size: 10px;
+}

@@ -1,0 +1,207 @@
+/* Style the accordion section */
+.accordion__section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-family: "Roboto";
+  }
+  
+  /* Style the buttons that are used to open and close the accordion panel */
+  .accordion {
+    font-family: "Roboto";
+    background-color: #ddecff;
+    cursor: pointer;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    transition: background-color 0.6s ease;
+    color: black;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .accordion:hover,
+  .accord-active {
+    background-color: #0174ff;
+    color: #ffffff !important;
+  }
+  
+  /* Style the accordion content title */
+  .accordion__title {
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .accordion__title span {
+    padding: 25px;
+    text-align: center;
+  }
+  
+  /* Style the accordion chevron icon */
+  .accordion__icon {
+    margin-left: auto;
+    transition: transform 0.6s ease;
+  }
+  
+  /* Style to rotate icon when state is active */
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  /* Style the accordion content panel. Note: hidden by default */
+  .accordion__content {
+    background-color: white;
+    overflow-y: scroll !important;
+    transition: max-height 0.6s ease;
+  }
+  
+  /* Style the accordion content text */
+  .accordion__text {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+    overflow: scroll !important;
+  }
+  
+  .accordion__title img {
+    height: 15px;
+    width: 15px;
+  }
+  .spanAccordian .toggle-switch-inner:after {
+    content: attr(data-no);
+    text-transform: uppercase;
+    padding-right: 10px;
+    background-color: #bbb;
+    /* background-color: #0174FF; */
+    color: #fff;
+    text-align: right;
+    /* font-size: 12px; */
+    font-weight: 900;
+  }
+  .spanAccordian .toggle-switch-inner:before {
+    content: attr(data-yes);
+    text-transform: uppercase;
+    padding-left: 10px;
+    background-color: #ffffff;
+    /* background-color: #0174FF; */
+    color: #fff;
+  }
+  .accordian .toggle-switch-switch {
+    display: block;
+    width: 16px;
+    margin: 5px;
+    background: #0174ff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    /* right: 40px; */
+    border: 0 solid #bbb;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+  }
+  
+  .accordion__section .disable-pointer-events {
+    cursor: not-allowed;
+    background-color: #eeeeee;
+    color:black !important;
+    pointer-events: auto !important;
+  }
+  
+  .accordion__section .dcb-note-tag {
+    padding-right: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+  
+    color: #ffffff;
+  }
+  
+  
+  .accordion__section .dcb-note-tag-image{
+    margin-right: 5px;
+  }
+  
+  
+  .accordion__section .multi-border-bs{
+    position: absolute;
+      top: -7px;
+      left: 0;
+      width: 20px;
+      height: 20px;
+     background-color:  transparent !important;
+      /* background-color: #6C7A88; */
+      /* border: 1.76922px solid #FFFFFF; */
+      border: 1px solid #9E9E9E !important;
+      border-radius: 3px;
+      box-shadow: 0px 4px 10px #e7cb6033;
+  }
+  
+  .accordion__content .accordion__section .multi-border{
+    margin-top: 10px;
+  }
+  
+  .accordion__section .multi-border{
+  
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #0174FF !important;
+    border: none !important;
+    border-radius: 3px;
+   
+  }
+  .accordion__section  .multi-border::after {
+    content: '';
+    position: absolute;
+    display: none;
+    width: 9px;
+     height: 3px;
+    border-left: 2px solid #FFFFFF !important;
+    border-bottom: 2px solid #FFFFFF !important;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    top: 7px;
+    left: 5px;
+  }
+  
+  .accordion__section .accord-active .multi-border{
+    position: absolute;
+    top: -7px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 3px;
+  }
+  .accordion__section .accord-active  .multi-border::after {
+    content: '';
+    position: absolute;
+    display: none;
+    width: 9px;
+     height: 3px;
+    border-left: 2px solid #0174FF !important;
+    border-bottom: 2px solid #0174FF!important;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    top: 7px;
+    left: 5px;
+  }
+  
+  .accordion__section .disable-pointer-events{
+    opacity: 0.7;
+  }

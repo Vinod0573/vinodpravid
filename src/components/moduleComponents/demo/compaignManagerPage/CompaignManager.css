@@ -1,0 +1,83 @@
+.compaignManagerWrapper .headingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0174ff;
+}
+.compaignManagerWrapper .navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.compaignManagerWrapper .navTitle {
+  width: 340px;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  cursor: pointer;
+}
+.compaignManagerWrapper .demoCallDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compaignManagerWrapper .navBlur {
+  color: gray;
+  width: 26.5%;
+  height: 32px;
+}
+.compaignManagerWrapper .navHighlight {
+  /* width: 369px; */
+  width: 26.5%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 85.0745px 68.0596px rgba(36, 69, 152, 0.05),
+    0px 43.069px 29.6697px rgba(36, 69, 152, 0.03375),
+    0px 17.0149px 11.0597px rgba(36, 69, 152, 0.025),
+    0px 3.72201px 3.9347px rgba(36, 69, 152, 0.01625);
+}
+.compaignManagerWrapper .backArrow {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4%;
+  padding-left: 4%;
+  height: 20px;
+}
+.compaignManagerWrapper .iconBack {
+  cursor: pointer;
+}
+.compaignManagerWrapper .progressBarDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 2%;
+  margin-top: 3%;
+}
+.compaignManagerWrapper .demoToggleSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.compaignManagerWrapper .demoToggleSwitchExtraClass {
+  width: 80px !important;
+}
+
+.compaignManagerWrapper .demoToggleText:before,
+.compaignManagerWrapper .demoToggleText::after {
+  font-size: 12px;
+}

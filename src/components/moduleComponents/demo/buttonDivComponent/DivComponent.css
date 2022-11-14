@@ -1,0 +1,41 @@
+.DivComponentWrapper .DivComponent {
+  width: 250px;
+  height: 80px;
+  background: #ffffff;
+  box-shadow: 0px 98.4513px 78.761px rgba(36, 69, 152, 0.05),
+    0px 49.841px 34.3349px rgba(36, 69, 152, 0.03375),
+    0px 19.6903px 12.7987px rgba(36, 69, 152, 0.025),
+    0px 4.30724px 4.55337px rgba(36, 69, 152, 0.01625);
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.DivComponentWrapper .heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  /* color: #000000; */
+}
+.DivComponentWrapper .hoverDiv:hover {
+  background-color: #773eff;
+  color: #ffffff !important;
+}
+.DivComponentWrapper .hoverImgDiv:hover {
+  outline: 2px solid #0174ff;
+}
+.DivComponentWrapper .comingsoonDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.DivComponentWrapper .coming {
+  opacity: 0.8;
+  pointer-events: none;
+}
+.DivComponent .imgcoming {
+  width: 165px;
+}

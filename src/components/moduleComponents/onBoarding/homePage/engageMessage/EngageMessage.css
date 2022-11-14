@@ -1,0 +1,85 @@
+.messageToEngageClWrapper .red{
+    color:#FF359A;
+    width: 20vmax;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.messageToEngageClWrapper .green{
+    color:#3DF9D3;
+    width: 20vmax;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+.messageToEngageClWrapper .blue{
+    color: #569EF5;
+    width: 20vmax;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.messageToEngageClWrapper .yellow{
+    color:#FFC600;
+    width: 20vmax;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.messageToEngageClWrapper .messageToEngageClMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1E1E1E;
+    font-size: 4vmax;
+    padding-top: 7vmax;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.messageToEngageClWrapper .leftMessage{
+    color: #ffffff;
+    width: 45vmax;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media(max-width: 480px) {
+    .messageToEngageClWrapper .messageToEngageClMessage {
+        font-size: 2.5vmax;
+    }
+  }
+
+@media(max-width: 480px) {
+    .messageToEngageClWrapper .leftMessage{
+        width: 28vmax;
+
+    }
+  }
+
+  @media(max-width: 480px) {
+    .messageToEngageClWrapper .red{
+        width: 10vmax;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .messageToEngageClWrapper .green{
+        width: 10vmax;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .messageToEngageClWrapper .blue{
+        width: 10vmax;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .messageToEngageClWrapper .yellow{
+        width: 10vmax;
+    }
+  }

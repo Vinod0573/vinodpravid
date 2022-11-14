@@ -1,0 +1,94 @@
+.wrapper__report {
+  height: 100%;
+  width: 85.25vw !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  .search-audio-player {
+    width: 86.25vw;
+    // margin-top: 10px;
+    // margin-bottom: 10px;
+    // margin-left: 125px;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: flex-start;
+
+    .audio-player {
+      margin-left: 9%;
+      transform: scale(0.7);
+      z-index: 100;
+    }
+  }
+  .select-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .report__table {
+    flex: 1;
+    width: 100%;
+    height: calc(100% - 175px);
+    padding: 0 40px 20px 40px;
+    // height: calc(100% - 160px);
+
+    .extraClassTableWrapper {
+      border: 1px solid var(--primary-color);
+      border-radius: 10px;
+      color: var(--primary-grey);
+      // padding: 17px 25px 22px 25px;
+      padding: 20px 20px 5px 20px;
+      width: 100%;
+      margin: auto;
+      overflow-y: auto;
+      overflow-x: auto;
+
+      .table__no-data {
+        position: fixed;
+        left: 50%;
+        margin-top: 15%;
+      }
+      .loaderSaarthi {
+        position: fixed;
+        left: 47%;
+        top: 55%;
+      }
+    }
+    .extraClassTableBody {
+      tr {
+        height: 25px;
+      }
+    }
+  }
+
+  .report__pagination {
+    margin: 0.5% 0% 10px 0%;
+  }
+  .extraClassSearchWrapper {
+    margin-top: 10px;
+    margin-left: 8px;
+  }
+  .hide-report-table {
+    visibility: hidden !important;
+  }
+}
+
+// .extraClassTableWrapper::-webkit-scrollbar {
+//   width: 5px;
+// }
+
+// .extraClassTableWrapper::-webkit-scrollbar-track {
+//   background: transparent;
+//   border-radius: 10px;
+// }
+// .extraClassTableWrapper::-webkit-scrollbar-thumb {
+//   background: transparent;
+//   border-radius: 10px;
+// }
+// .extraClassTableWrapper:hover::-webkit-scrollbar-thumb {
+//   background: rgb(204, 202, 202);
+//   border-radius: 10px;
+// }

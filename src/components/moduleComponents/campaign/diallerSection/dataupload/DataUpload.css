@@ -1,0 +1,40 @@
+.data-upload {
+  margin: 30px;
+}
+
+.data-upload .div-component {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.data-upload .child-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 267px;
+  height: 94px;
+    margin:3%;
+  background: #ffffff;
+  box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05),
+    0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375),
+    0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025),
+    0px 4.23454px 4.47652px rgba(36, 69, 152, 0.01625);
+  border-radius: 7px;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.data-upload .child-div:hover{
+    background: #DDECFF;
+}
+
+.data-upload .tab-section{
+    width: 100%;
+}

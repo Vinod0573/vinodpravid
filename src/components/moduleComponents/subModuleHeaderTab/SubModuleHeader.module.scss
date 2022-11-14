@@ -1,0 +1,59 @@
+.subModuleTopDiv {
+  display: flex;
+  //   flex-direction: column;
+  flex-wrap: wrap;
+  // width: 100vw;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 1.89924px 2.84886px rgba(0, 0, 0, 0.1);
+  height: 41px;
+  width: auto;
+}
+
+.channelTab {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+  background: #ffffff;
+  box-shadow: 0px 1.89924px 2.84886px rgba(0, 0, 0, 0.1);
+  height: 36px;
+  width: auto;
+}
+
+.whatsAppChannelTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  width: 20vw;
+  background: #ffffff;
+  box-shadow: 0px 1.89924px 2.84886px rgba(0, 0, 0, 0.1);
+  height: 36px;
+  width: auto;
+}
+
+.extraHozitonLineClasss {
+  height: 4px;
+  background: #0174ff;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.campaignTab {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+  background: #ffffff;
+  box-shadow: 0px 1.89924px 2.84886px rgba(0, 0, 0, 0.1);
+  height: 36px;
+  width: auto;
+}
+
+.extraHozitonLine {
+  text-align: center;
+  height: 4px;
+  background: #0174ff;
+  border-radius: 3px 3px 0px 0px;
+}

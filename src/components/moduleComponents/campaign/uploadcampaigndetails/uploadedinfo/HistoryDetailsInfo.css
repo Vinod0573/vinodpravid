@@ -1,0 +1,109 @@
+.callDetailsInfoWrapper .historyDetailsInfoDiv {
+  background: #ffffff;
+  /* border: 0.486539px solid #D8D8D8; */
+  box-shadow: 0px 59.6861px 47.7489px rgba(36, 69, 152, 0.05),
+    0px 30.2161px 20.8155px rgba(36, 69, 152, 0.03375),
+    0px 11.9372px 7.7592px rgba(36, 69, 152, 0.025),
+    0px 2.61127px 2.76048px rgba(36, 69, 152, 0.01625);
+  border-radius: 5.73062px;
+  height: 60vh;
+}
+
+.callDetailsInfoWrapper .extraStyleTheadHDI {
+  background-color: #ffffff !important;
+}
+
+.callDetailsInfoWrapper .theadTrExtraStyleHDI {
+  border: none !important;
+}
+
+.callDetailsInfoWrapper .trThExtraStyleHDI {
+  border: none !important;
+  width: 25% !important;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0174ff;
+}
+
+.callDetailsInfoWrapper .trTdExtraStyleHD2 {
+  border: none !important;
+  color: #7359b2;
+  font-size: 12px !important;
+  /* width: 20% !important; */
+}
+
+.callDetailsInfoWrapper .trTdExtraStyleHD20 {
+    border: none !important;
+    /* color: #7359b2; */
+    color: #000000;
+    font-size: 12px !important;
+    /* width: 20% !important; */
+  }
+
+.callDetailsInfoWrapper .trThExtraStyleHDI {
+  border: none !important;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0174ff;
+}
+
+.callDetailsInfoWrapper .download-btn {
+  width: 20px;
+  cursor: pointer;
+}
+.callDetailsInfoWrapper .dloader {
+  width: 40px;
+  top:9px;
+  pointer-events: none;
+}
+.callDetailsInfoWrapper .download-btn2 {
+  width: 15px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.callDetailsInfoWrapper .mapBtn {
+  width: 15px;
+  cursor: pointer;
+}
+.callDetailsInfoWrapper .mapBtnDis {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.api-int{
+    flex: 2 2 25%;
+    padding: 0% 0% 0% 3%;
+}
+
+.api-int .header-data{
+    color: #0174FF;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+ .api-int .campaign-name{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #9E9E9E;
+}
+.btnNext{
+  width: 180px !important;
+  height: 40px;
+  background: #0174FF;
+  border-radius: 7px;
+  font-family: 'Roboto';
+ font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #FFFFFF;
+}
+
+.set-btn{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: flex-end;
+}

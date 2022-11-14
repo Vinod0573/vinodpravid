@@ -1,0 +1,73 @@
+.callingcondition-wrapper {
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9e9e9e;
+    /* line-height: 28px; */
+  }
+  
+  .callingcondition-wrapper table {
+    width: 100%;
+  }
+  
+  .callingcondition-wrapper th {
+    padding: 10px;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid #DDECFF;
+  
+  }
+  .callingcondition-wrapper .calling-condition-DND{
+      width: 100%;
+  }
+  
+  .callingcondition-wrapper tr{
+    color: #000000;
+      text-align: center;
+  }
+  
+  .callingcondition-wrapper td:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px; */
+  }
+  
+  .callingcondition-wrapper .emi-drop .selecteditem {
+    height: 30px !important;
+  }
+  .callingcondition-wrapper .emi-drop .dropdownJpWrapper .ddSelectedItemPara{
+      font-size: 14px !important;
+  }
+  
+  .callingcondition-wrapper .emi-drop{
+    background: #ffffff;
+    box-shadow: 0px 2.25px 4.5px rgba(0, 0, 0, 0.12);
+    border-radius: 7.875px;
+    height: 30px;
+    margin: 10px;
+    width: 180px;
+  }
+  
+  .callingcondition-wrapper .emi-drop .dropdownJpWrapper .selectedNotValidated{
+  border: none;
+  }
+  
+  .callingcondition-wrapper .dropdownToBeSelected{
+  height: auto;
+  
+  }
+  
+  .callingcondition-wrapper .multi-border{
+    margin-bottom: 10px;
+  }
+  
+  .callingcondition-wrapper .multi-border-bs{
+    margin-bottom:10px;
+  }
+  
+  .callingcondition-wrapper .checkbox-container{
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,28 @@
+.historyWrapper .historyDiv{
+    width: 88vw;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 85.0745px 68.0596px rgba(36, 69, 152, 0.05), 0px 43.069px 29.6697px rgba(36, 69, 152, 0.03375), 0px 17.0149px 11.0597px rgba(36, 69, 152, 0.025), 0px 3.72201px 3.9347px rgba(36, 69, 152, 0.01625);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historyWrapper .tableDiv{
+ 
+   width: 80vw;
+   height: 350px;
+   margin:auto auto;
+   background: #FFFFFF;
+border: 0.454399px solid #D8D8D8;
+box-shadow: 0px 55.7434px 44.5947px rgba(36, 69, 152, 0.05), 0px 28.2201px 19.4405px rgba(36, 69, 152, 0.03375), 0px 11.1487px 7.24664px rgba(36, 69, 152, 0.025), 0px 2.43877px 2.57813px rgba(36, 69, 152, 0.01625);
+border-radius: 5.35207px;
+
+
+
+
+    
+}
+.historyWrapper .tableBody{
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,72 @@
+.wrapper {
+  max-width: 200px;
+  max-height: 30px;
+  min-width: 200px;
+  max-height: 30px;
+  height: 30px;
+  border: 0.930687px solid #d8d8d8;
+  box-sizing: border-box;
+
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #ffffff;
+  .title {
+    width: 100%;
+    height: 100%;
+    color: #0a0a0a;
+    display: flex;
+    font-weight: 400;
+    size: 14px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    img {
+      position: relative;
+    }
+  }
+  .dropdown {
+    position: relative;
+    background-color: white;
+    z-index: 4;
+    margin-top: 5px;
+    input {
+      margin: 3px;
+    }
+    .selectAll {
+      color: var(--primary-grey);
+      margin: 2px;
+      &[data-selected="true"] {
+        color: var(--primary-color);
+      }
+    }
+    .each {
+      &[data-selected="true"] {
+        color: var(--primary-color);
+      }
+    }
+    .dropdownOptions {
+      color: var(--primary-grey);
+      margin: 2px;
+    }
+    .submit {
+      display: flex;
+      flex-direction: row;
+      .img {
+        width: 48%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f1f1f1;
+        cursor: pointer;
+        border-radius: 3px;
+        margin: 1px;
+      }
+      .cancel {
+      }
+      .ok {
+      }
+    }
+  }
+}

@@ -1,0 +1,140 @@
+.collectInfoWrapperjp .cltInfFlexClassjp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .collectInfoWrapperjp .collectionInfoAreajp{
+    padding: 9.5vmax 20vmax 4.5vmax 20vmax;
+    background-color: #ffffff;
+    }
+    
+    .collectInfoWrapperjp .cltInf{
+      font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-align: center;
+        padding: 3vmax;
+    }
+    
+    .collectInfoWrapperjp .cltInf .cltInfHead{
+        font-weight: 700;
+        font-size: 3vmax;
+        color: #0174FF;
+    }
+    
+    .collectInfoWrapperjp .cltInf .cltInfPara{
+        font-weight: 500;
+        font-size: 1.5vmax;
+        text-align: center;
+        color: #1E1E1E;
+    }
+    
+    
+    .collectInfoWrapperjp .animate-reveal {
+        opacity: 0;
+        -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+           -moz-animation: reveal 1s ease-in 1 normal forwards;
+             -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+                animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+      }
+      
+      .collectInfoWrapperjp .animate-first {
+        -webkit-animation-delay: 0;
+           -moz-animation-delay: 0;
+             -o-animation-delay: 0;
+                animation-delay: 0;
+      }
+      
+      .collectInfoWrapperjp .animate-second {
+        -webkit-animation-delay: 500ms;
+           -moz-animation-delay: 500ms;
+             -o-animation-delay: 500ms;
+                animation-delay: 500ms;
+      }
+      
+      .collectInfoWrapperjp .animate-third {
+        -webkit-animation-delay: 1s;
+           -moz-animation-delay: 1s;
+             -o-animation-delay: 1s;
+                animation-delay: 1s;
+      }
+      
+      @-webkit-keyframes reveal {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(100%);
+             -moz-transform: translateY(100%);
+               -o-transform: translateY(100%);
+                  transform: translateY(100%);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+             -moz-transform: translateY(0);
+               -o-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @-moz-keyframes reveal {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(100%);
+             -moz-transform: translateY(100%);
+               -o-transform: translateY(100%);
+                  transform: translateY(100%);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+             -moz-transform: translateY(0);
+               -o-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @-o-keyframes reveal {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(100%);
+             -moz-transform: translateY(100%);
+               -o-transform: translateY(100%);
+                  transform: translateY(100%);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+             -moz-transform: translateY(0);
+               -o-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+      
+      @keyframes reveal {
+        0% {
+          opacity: 0;
+          -webkit-transform: translateY(100%);
+             -moz-transform: translateY(100%);
+               -o-transform: translateY(100%);
+                  transform: translateY(100%);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: translateY(0);
+             -moz-transform: translateY(0);
+               -o-transform: translateY(0);
+                  transform: translateY(0);
+        }
+      }
+    
+      @media(max-width: 480px) {
+        .cltInfPara.animate-reveal.animate-second{
+          width: 100px;
+        }
+      }
+    
+      @media(max-width: 480px) {
+        .collectInfoWrapperjp .collectionInfoAreajp{
+          padding: 70% 20vmax 4.5vmax 20vmax;
+          }
+      }

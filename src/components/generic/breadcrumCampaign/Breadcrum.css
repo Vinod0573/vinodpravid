@@ -1,0 +1,67 @@
+.breadcrum-wrapper{
+    position: relative;
+    width: 100%;
+    background-color: #DDECFF;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.breadcrum-wrapper .isActive-change{
+    background-color: #ffffff;
+    color: #0174FF;
+    padding: 10px;
+}
+.breadcrum-wrapper .previousCompleted{
+    color: #0174FF;
+}
+
+.breadcrum-wrapper .breadcrum-data{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+    padding: 10px;
+}
+
+.breadcrum-wrapper .breadcrum-backicon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.breadcrum-wrapper .breadcrum-inner-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.breadcrum-wrapper .breadcrum-backicon img{
+    width: 35px;
+}
+
+.breadcrum-wrapper .breadcrum-icon{
+    padding: 0px 5px;
+}
+
+.breadcrum-wrapper .breadcrum-icon img{
+    width:18px;
+}
+.breadcrum-wrapper .disable{
+    opacity: 0.3;
+    pointer-events: none !important;
+   
+    
+}

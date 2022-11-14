@@ -1,0 +1,45 @@
+.userScreenSchedulerWrapper .divComponentContainer {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10%;
+  gap: 20%;
+  margin-top: 5%;
+  margin-left: 12%;
+}
+.userScreenSchedulerWrapper .firstHeadContainer{
+    margin-top: 1%;
+}
+.userScreenSchedulerWrapper .headingUserCaseDiv {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #0174ff;
+}
+.userScreenSchedulerWrapper .bfsiDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   width: 10%;
+   margin-left: 2%;
+   position: absolute;
+}
+.userScreenSchedulerWrapper .hoverImgDiv:hover{
+    outline: 1px solid #0174FF;
+    background-color: #DDECFF; 
+   
+}
+.userScreenSchedulerWrapper .backIcon{
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  cursor: pointer;
+}
+.userScreenSchedulerWrapper .icon{
+  width: 35px
+}

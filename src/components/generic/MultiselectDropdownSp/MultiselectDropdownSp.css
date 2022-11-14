@@ -1,0 +1,173 @@
+.multiselect-wrapper-wrapperx {
+  position: relative;
+  margin: 0px 1.5vmax 0px 5px;
+  overflow: visible;
+}
+
+.multiselect-wrapper-wrapperx .select-data {
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+}
+.multiselect-wrapper-wrapperx .goright {
+  margin-left: 90%;
+}
+.multiselect-wrapper-wrapperx .selecteditem {
+  background: #ffffff;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 1vmax;
+  font-size: 12px;
+  height: 30px;
+  border-radius: 7px;
+  position: relative;
+  /* margin-left:1em; */
+}
+
+.multiselect-wrapper-wrapperx .multiselect-wrapper {
+  width: 190px;
+  height: auto !important;
+  max-height: 250px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.multiselect-wrapper-wrapperx .filterdataToBeSelected {
+  /* position: absolute; */
+  margin-left: 0px;
+  background: #ffffff;
+  border-top: none;
+  box-sizing: border-box;
+  /* border-radius: 0 0 7.9556px 7.9556px; */
+  width: 250px;
+  z-index: 9999;
+  box-shadow: 0px 4.88667px 7.33px -1.22167px rgb(0 0 0 / 12%),
+    0px 2.44334px 4.88667px -1.22167px rgb(0 0 0 / 7%);
+  border-radius: 7px;
+}
+
+.multiselect-wrapper-wrapperx .multiselect-wrapper .search-inp {
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.multiselect-wrapper-wrapperx .multiselect-wrapper .search-inp:hover {
+  outline: none;
+}
+.multiselect-wrapper-wrapperx .multiselect-wrapper .search-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #b7b7b7;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.multiselect-wrapper-wrapperx .multiselect-wrapper .multiselect-bodyjp {
+  max-height: 160px;
+  overflow-y: scroll;
+  width: 80%;
+  border-bottom: 1px solid #b7b7b7;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.multiselect-wrapper-wrapperx .multiselect-wrapper .body-data {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.multiselect-wrapper-wrapperx .multiselect-wrapper .multiselect-footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+}
+.multiselect-wrapper-wrapperx .multiselect-wrapper .multi-over {
+  /* margin: 10px; */
+  display: flex;
+  margin-top: 2px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0px 71.3652px 57.0921px rgba(36, 69, 152, 0.05),
+    0px 36.1286px 24.8886px rgba(36, 69, 152, 0.03375),
+    0px 14.273px 9.27747px rgba(36, 69, 152, 0.025),
+    0px 3.12223px 3.30064px rgba(36, 69, 152, 0.01625);
+  border-radius: 7px 7px 7px 7px;
+  width: 250px;
+}
+.multiselect-wrapper-wrapperx .multiselect-wrapper .multiple-btn {
+  padding: 5px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0px 5.75px 8.625px -1.4375px rgba(0, 0, 0, 0.12),
+    0px 2.875px 5.75px -1.4375px rgba(0, 0, 0, 0.07);
+}
+.multiselect-wrapper-wrapperx .multiselect-wrapper .multi-icon {
+  width: 15px;
+  margin: 5px;
+}
+.multiselect-wrapper-wrapperx .hidden {
+  visibility: hidden;
+  position: absolute;
+  color: #ffffff;
+  background: #000000;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 8px;
+  z-index: 9999;
+
+  box-sizing: border-box;
+  /* height: 30px; */
+  box-shadow: 4px 3px 10px gray;
+}
+.multiselect-wrapper-wrapperx .hidden:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #000000;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+.multiselect-wrapper-wrapperx .languageDropdown:hover .hidden {
+  visibility: visible;
+  opacity: 0.7;
+  top: 40px;
+  left: 50%;
+  margin-left: -76px;
+  z-index: 999;
+  z-index: 999;
+}
+.multiselect-wrapper-wrapperx .toolTip {
+  margin-right: 5px;
+  display: block;
+}
+.multiselect-wrapper-wrapperx .placeholderDiv {
+  background-color: #ddecff;
+  margin-right: 8px;
+  color: #0174ff;
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+.multiselect-wrapper-wrapperx .colorItem {
+  color: #0174ff;
+}

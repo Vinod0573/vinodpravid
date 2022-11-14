@@ -1,0 +1,14 @@
+.progressBarWrapper .stepWrapper{
+  display: flex;
+  margin-bottom: 20px;
+  width: 933px;
+ 
+  /* background: #FFFFFF; */
+/* box-shadow: 0px 215.034px 172.027px  */
+border-radius: 23.0022px;
+align-items: center;
+justify-content: center;
+
+}
+
+

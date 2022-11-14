@@ -1,0 +1,37 @@
+.dragDropWrapper .dragDropArea{
+    text-align: center;
+}
+
+.customDragDropWrapper .customDropArea{
+    background: #F8F9FA;
+    border: 0.857877px solid #000000;
+    box-sizing: border-box;
+    border-radius: 31.3208px;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.customDragDropWrapper .customDropArea .customDropAreapaa{
+    padding: 1vmin;
+}
+
+.dragDropArea .cKFCzz{
+    border: none !important;
+    border-radius: 0 !important;
+    background-color: unset !important;
+}
+
+.dragDropArea .customDropArea:hover{
+    background-color: #999 !important;
+    opacity: 0.5;
+}
+
+.customDragDropWrapper .csv-upload-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

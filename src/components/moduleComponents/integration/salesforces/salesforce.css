@@ -1,0 +1,90 @@
+.salesforceClientPage-wrap .topDiv {
+  background: #fbfcff;
+  width: 100%;
+}
+
+.salesforceClientPage-wrap .clientdropdown {
+  position: relative;
+  width: 170px;
+  left: 70px;
+  top: 50px;
+  padding-top: 10px;
+}
+
+.salesforceClientPage-wrap .clientHeader {
+  padding-bottom: 10px;
+  font-weight: bold;
+  /* width: 100%; */
+}
+
+.salesforceClientPage-wrap .outerRectangleBox {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  left: 220px;
+  top: 240px;
+  background: #0174ff;
+  border-radius: 7px;
+  box-shadow: 4.4424px 0px 4.4424px rgba(0, 0, 0, 0.1);
+}
+
+.salesforceClientPage-wrap .outerRectangleBox:hover {
+  /* outline: 4px solid skyblue; */
+}
+
+.salesforceClientPage-wrap .connector {
+  position: absolute;
+  left: 17.39%;
+  right: 17.82%;
+  top: 17.87%;
+  bottom: 17.71%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 45px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.salesforceClientPage-wrap .extraStyleClass {
+  width: 170px !important;
+  height: 35px;
+  background: #ffffff;
+  border: none !important;
+  box-sizing: border-box !important;
+  box-shadow: 0px 7.14286px 7.14286px rgba(0, 0, 0, 0.25) !important;
+  z-index: 7;
+}
+
+.salesforceClientPage-wrap .dropdownStyling {
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%) !important;
+  height: 250px !important;
+  overflow-y: scroll;
+  background-color: #ffffff !important;
+  margin-top: 4px;
+  border: 1px solid #ffffff !important;
+}
+.salesforceClientPage-wrap .internalclientdiv {
+  position: absolute;
+  left: 16%;
+  /* right: 17.82%; */
+  top: 18%;
+  width: 200px;
+  height: 60px;
+
+  background: #0174ff;
+  border-radius: 7px;
+  box-shadow: 4.4424px 0px 4.4424px rgba(0, 0, 0, 0.1);
+}
+.salesforceClientPage-wrap .internalclientdiv:hover {
+  outline: 2px solid skyblue;
+}
+.salesforceClientPage-wrap .backArrowDivsalesforce {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding-right: 4%;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.rightsidepopwrapper {
+  width: 280px;
+  top: 59px;
+  height: 92vh;
+  position: absolute;
+  right: -330px;
+  transition: all 0.4s ease-out;
+  box-shadow: -5px 0px 7px 1px rgba(0, 0, 0, 0.02);
+  background-color: white;
+  z-index: 99;
+  padding-top: 0.5em;
+}
+.show {
+  position: absolute;
+  right: 2.2em;
+  transition: all 0.4s ease-in;
+}
+.closeicon {
+  position: absolute;
+  top: 4em;
+  left: -0.8em;
+  background-color: var(--primary-color);
+  padding: 5px 2px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titleofilter {
+  display: flex;
+  justify-content: flex-start;
+  color: var(--primary-color);
+  padding-left: 1em;
+}
+.titletext {
+  color: inherit;
+  margin: 0;
+  margin-left: 0.5em;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.divide {
+  border: 0.5px solid var(--secondary-grey);
+}

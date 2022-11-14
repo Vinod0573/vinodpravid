@@ -1,0 +1,13 @@
+declare const NEW_REPORT_ISSUES_ACTION: {
+    CREATE_REPORT_ISSUES_API: string;
+    FETCH_REPORT_ISSUES: string;
+    SET_REPORT_ISSUES: string;
+    SET_UPDATE_REPORT_ISSUES: string;
+    SET_MESSAGE_REPORT_ISSUES: string;
+    SET_REPORT_ISSUE_UPDATE_ID: string;
+    SET_EMPTY_ISSUE: string;
+    SET_NO_ISSUE: string;
+    UPDATE_REPORT_ISSUE: string;
+    UPDATE_NO_ISSUE: string;
+};
+export default NEW_REPORT_ISSUES_ACTION;

@@ -1,0 +1,19 @@
+.RadioButton {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.LabelDiv {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.input[type="radio"] {
+  background: #0061ff;
+  border: 1px solid #979797;
+  border-radius: 18px;
+}

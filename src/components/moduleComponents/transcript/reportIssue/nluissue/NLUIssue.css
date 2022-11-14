@@ -1,0 +1,23 @@
+.err{
+    color:#0174FF;
+    font-size: .8rem;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1.25em;
+    margin-top: 5px;
+}
+.NLUIssueWrapper{
+    position: relative;
+}
+.goinbox{
+    position: absolute;
+    z-index: 10;
+    top:23px;
+    left: 7px;;
+   
+}
+.placeholder-up{
+    text-align: left;
+    margin-left: 20px;;
+    font-size: 14px;
+}

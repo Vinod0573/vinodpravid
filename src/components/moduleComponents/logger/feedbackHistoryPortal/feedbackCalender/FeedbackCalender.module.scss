@@ -1,0 +1,81 @@
+$dateFont: 12px;
+$totalDaysFont: 14px ;
+$totalDaysColor: grey;
+$buttonFont: 14px;
+$buttonBackground: var(--secondary-color);
+.wrapper {
+  width: 260px;
+  margin: auto;
+  .date {
+    display: flex;
+    margin: 5px 14px;
+    
+    justify-content: space-between;
+    flex-direction: row;
+    div {
+      font-size: $dateFont;
+      color: var(--primary-color);
+      font-weight: 600;
+    }
+  }
+
+  :global .rdrDateDisplayWrapper {
+    display: none;
+  }
+  .totalDays {
+    font-size: $totalDaysFont;
+    margin-top: 10px;
+    margin-left: 14px;
+    
+    color: $totalDaysColor;
+  }
+  :global .rdrMonth {
+    margin-left: 0;
+    padding-left: 0;
+   padding-right: 0;
+  }
+  :global .rdrMonth,
+  :global .rdrMonthAndYearWrapper {
+    width: 260px;
+  }
+  :global .rdrMonthPicker,
+  :global .rdrYearPicker {
+    width: 80px;
+    margin-right: 20px;
+    select {
+      padding: 0;
+      width: 120px;
+    }
+  }
+  :global .rdrYearPicker select {
+    padding: 0;
+    width: 80px;
+  }
+  :global button.rdrNextPrevButton:nth-child(1),
+  :global button.rdrNextPrevButton:nth-child(3) {
+    margin: 0;
+  }
+  :global .rdrWeekDay {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+padding-top: 5px;
+padding-bottom: 5px;
+  button {
+    all: unset;
+    width: 100%;
+    font-size: $buttonFont;
+    text-align: center;
+    color:var(--primary-color);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

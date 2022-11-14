@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+
+  flex-direction: column;
+  max-width: 263px;
+  .allClients {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .phoneList {
+    margin-left: 20px;
+    height: calc(100% - 115px);
+    overflow-y: scroll;
+    overflow-x: visible;
+    .noData {
+      display: flex;
+      justify-content: center;
+      margin-top: 70px;
+      align-items: center;
+      height: 50%;
+      color: var(--primary-grey);
+      .message {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+    .loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+  }
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .extraClassSearchWrapper {
+    margin: 15px 17px 8px 20px;
+  }
+}

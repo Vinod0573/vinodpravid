@@ -1,0 +1,188 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ULBackAndForth {
+  text-align: right;
+  margin: 30px;
+}
+.searchInputDiv {
+  padding: 20px 5%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fbfcff;
+}
+.searchInput {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.userListSearchTitle h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22.6517px;
+  line-height: 28px;
+  padding-right: 10px;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+.userListSearchInput {
+  background-color: #ffffff;
+  width: 300px;
+  padding: 5px 5px;
+  outline: none;
+  border: none;
+  border-radius: 8.16293px;
+}
+
+.addUserListTopButton {
+  padding: 3px 15px;
+  font-weight: bold;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.2098px;
+  line-height: 22px;
+  color: #ffffff;
+  background: #0174ff;
+  border-radius: 7px;
+  width: 170px !important;
+}
+
+.userListTable {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.userListTable thead {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 21.4834px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  background: #320268;
+  box-shadow: 0px 103.969px 83.1749px rgba(36, 69, 152, 0.05),
+    0px 52.6341px 36.2591px rgba(36, 69, 152, 0.03375),
+    0px 20.7937px 13.5159px rgba(36, 69, 152, 0.025),
+    0px 4.54863px 4.80855px rgba(36, 69, 152, 0.01625);
+}
+
+.userListTable thead tr th {
+  padding: 12px 0px;
+  border-right: 0.77417px solid #ffffff;
+}
+
+.userListTable tbody {
+  background: #ffffff;
+}
+
+.userListTable tbody tr {
+  border-bottom: 1.07417px solid rgba(0, 0, 0, 0.2);
+}
+
+.userListTable tbody tr td {
+  padding: 11px 0px;
+}
+
+.uleditAndToggleSwitch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uleditAndToggleSwitch span img {
+  cursor: pointer;
+}
+
+.updateModelTopDiv {
+  position: "relative";
+  width: "100%";
+}
+
+.updateModelWrap {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.updateModel {
+  position: absolute;
+  z-index: 9999;
+  width: 90%;
+  top: 60px;
+  left: 52px;
+}
+
+.addUserModelWrap {
+  /* position: absolute;
+    height: 99vh;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    backdrop-filter: blur(25px);
+    z-index:9999 ; */
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  /* padding-top: 100px; */
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addUserModel {
+  position: absolute;
+  z-index: 9999;
+  width: 90%;
+  top: 200px;
+  left: 52px;
+}
+
+/* .updateModelTopDiv .userListDiv{
+    background: #FFFFFF;
+    box-shadow: 0px 9.62245px 14.4337px -2.40561px rgba(0, 0, 0, 0.12), 0px 4.81122px 9.62245px -2.40561px rgba(0, 0, 0, 0.07);
+    border-radius: 13.2449px;
+    padding-top: 1.5vmax;
+    padding-bottom: 1.5vmax;
+} */
+
+.userListDiv .userTableBody {
+  background: #ddecff !important;
+}
+
+.userListDiv .table-responsive {
+  width: 95%;
+  height: 75vh !important;
+  background: #ffffff;
+  border: 0.50874px solid #d8d8d8;
+  background: #ffffff;
+  box-shadow: 0px 9.62245px 14.4337px -2.40561px rgb(0 0 0 / 12%),
+    0px 4.81122px 9.62245px -2.40561px rgb(0 0 0 / 7%);
+  border-radius: 5.99211px;
+  z-index: 10;
+}
+.userListTopDiv .userListDiv {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,80 @@
+.tooltip-section {
+  /* position: absolute;
+    flex-shrink:1;
+    align-items: center;
+    background-color:#ffffff;
+    color: #000000 !important;
+    font-family: Lato;
+    border-radius: 20px 10px 20px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 200px;
+    height:60px;
+    bottom:80px;
+    left: 75px;
+    z-index: 9999;
+    box-shadow: 0px 5.75px 8.625px rgba(0, 0, 0, 0.12), 0px 2.875px 5.75px rgba(0, 0, 0, 0.07);
+    cursor: pointer; */
+}
+
+.tooltip-data:before {
+  left: -30px;
+  border-right-color: #ffffff !important;
+  border-right-width: 12px !important;
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border: 18px solid transparent;
+  border-bottom-width: 0;
+  cursor: pointer;
+}
+
+.tooltip-section .tooltip-data {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Roboto";
+  padding: 5px;
+}
+
+.tooltip-section .tooltip-data:hover {
+  /* background-color: #F3E8FF; */
+  background-color: #ddecff;
+
+  /* border-radius: 10px 0px 0px 0px; */
+}
+
+.tooltip-section .tooltip-data:nth-child(1) {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 10px;
+}
+
+.tooltip-section .tooltip-data:last-child {
+  border-bottom-right-radius: 15px;
+}
+
+.tooltip-data:hover:before {
+  border-right-color: #f3e8ff !important;
+}
+
+.tooltip-section .tooltip-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tooltip-section span {
+  align-items: center;
+}
+
+.tooltip-section .active {
+  background-color: #e6eaf8;
+}
+.tooltip-data.active::before {
+  border-right-color: #e6eaf8 !important;
+}

@@ -1,0 +1,55 @@
+.extraReportIssueSelectedClassMS{
+    border: 0.5px solid #D8D8D8 !important;
+    border-radius: 7px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    box-shadow: 0px 2.375px 4.75px rgba(0, 0, 0, 0.12) !important;
+    height: 5vh;
+    font-family: 'Roboto';
+}
+.botIssueWrapper{
+    position: relative;
+}
+.extraReportIssueToBeSelectedMS{
+    /* border: 1px solid #000000 !important; */
+    /* margin-left: auto !important;
+    margin-right: auto !important;
+    width: 60% !important; */
+    top: 30px !important;
+    left: 2.5vmax !important;
+    border-radius: 7px !important;
+
+}
+
+.extraClassMultiselectWrapperWrapperMS{
+    margin: 0px 1vmax 0px 1vmax;
+}
+
+.extraClassLeftImgStyleMS{
+    width: 20px;
+}
+.err{
+    color:#0174FF;
+    font-size: .8rem;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1.25em;
+    margin-top: 5px;
+}
+.err-box{
+    background-color: #ddebff;
+}
+.goinbox{
+    position: absolute;
+    z-index: 10;
+    top:23px;
+    left: 7px;;
+   
+}
+.placeholder-up{
+    text-align: left;
+    margin-left: 20px;;
+  font-size: 14px;
+  padding-left: 10px;;
+  padding-bottom: 2px;
+}

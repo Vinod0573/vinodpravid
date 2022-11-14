@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.clientAdminTopDiv {
+  background: #ffffff;
+  display: flex;
+}
+
+.ClientAdminchild2 {
+  width: 100%;
+}
+
+.CACreateUser {
+  text-align: center;
+  height: 81vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CACreateUserMainDiv h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  color: #000000;
+  cursor: pointer;
+}
+.CACreateUserMainDiv p {
+  margin: 10px 0px;
+}
+
+.CACreateUser button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18.6637px;
+  line-height: 24px;
+  color: #000000;
+  background: #f5f4f4;
+  border-radius: 7.17569px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 7px 25px;
+}
+.createUserAdminButtonStyle {
+  background: #ffffff;
+  border-radius: 13.3333px;
+  width: 170px !important;
+  font-size: 18px !important;
+  font-weight: 900 !important;
+}
+
+.orParaClass {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}

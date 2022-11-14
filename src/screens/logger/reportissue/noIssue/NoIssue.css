@@ -1,0 +1,28 @@
+.noissue-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.noissuebirder{
+    border:1px solid #0174FF;
+    border-radius: 7px;
+    width:90%;
+    display: flex;
+    color:#0174FF;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 4px;
+    cursor: pointer;
+}
+.spn{
+    padding-left: 1em;
+}
+.clrchange{
+    color:white;
+    background-color: #0174FF;
+}
+.pointeren{
+    
+    color:#8fbaff;
+    border-color: #8fbaff;
+    pointer-events: none;
+}

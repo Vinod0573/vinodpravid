@@ -1,0 +1,33 @@
+.optionContainer {
+  display: flex;
+  min-height: 25px;
+  // background-color: white;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 6px;
+  z-index: 20;
+  position: relative;
+}
+
+.onlyIcon .optionContainer:hover {
+  width: 135px;
+}
+
+.optionContainer.activeOption {
+  // background-color: var(--primary-color);
+  color: white;
+}
+
+.leftMenu__icon {
+  width: 20px !important;
+  margin-right: 12px;
+  margin-left: 5px;
+}
+
+.optionName {
+  width: 100%;
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+  white-space: nowrap;
+}

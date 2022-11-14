@@ -1,0 +1,78 @@
+.donut_chart_wrap {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around;
+    align-items: center; */
+  /* margin-bottom: 15px; */
+  margin-top: -18px;
+}
+
+.donut_chart_wrap .titleName {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.4977px;
+  line-height: 30px;
+  text-align: center;
+  color: #65789b;
+}
+
+.donut_chart_wrap .donutChartLabelsDiv {
+  margin-top: -10px;
+}
+
+.donut_chart_wrap .donutChatTopDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-content: center; */
+  align-items: center;
+  /* padding: 22px; */
+  margin-bottom: 5px;
+}
+
+.donut_chart_wrap .icons {
+  width: 20%;
+  text-align: center;
+}
+
+/* .donut_chart_wrap .iconImage {
+  width: 30px !important;
+  height: 25px !important;
+} */
+
+.donut_chart_wrap .name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.9985px;
+  /* line-height: 20px; */
+  text-align: center;
+  color: #65789b;
+  width: 60%;
+  /* padding-top: 10px; */
+}
+
+.donut_chart_wrap .data {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.2745px;
+  /* line-height: 25px; */
+  text-align: center;
+  color: #000000;
+  width: 20%;
+  /* padding-top: 6px; */
+}
+
+.no_data_div {
+  /* font-family: "Roboto";
+    font-weight: bold; */
+  padding-top: 30%;
+}
+
+.noData {
+  /* font-family: "Roboto";
+    font-weight: bold; */
+  padding-top: 160%;
+}

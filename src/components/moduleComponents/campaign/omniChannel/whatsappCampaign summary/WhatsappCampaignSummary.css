@@ -1,0 +1,269 @@
+.whatsappOmniWrapperModal {
+  /* width: 70%; */
+  margin-left: 2%;
+  background: #ffffff;
+  box-shadow: 0px 226.596px 181.276px rgba(36, 69, 152, 0.05),
+    0px 114.714px 79.0252px rgba(36, 69, 152, 0.03375),
+    0px 45.3191px 29.4574px rgba(36, 69, 152, 0.025),
+    0px 9.91355px 10.48px rgba(36, 69, 152, 0.01625);
+  padding: 2% 3%;
+  height: 65vh;
+}
+.whatsappOmniWrapperModal .OuterDiv {
+  height: 55vh;
+}
+
+.whatsappOmniWrapperModal .ContainDiv {
+  display: flex;
+  /* width: 100%; */
+  /* justify-content: center; */
+  margin-bottom: 1%;
+  align-items: center;
+}
+.whatsappOmniWrapperModal .logoNameDiv {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  /* margin-left: 6%; */
+}
+.whatsappOmniWrapperModal .TwoDropDownDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 55%; */
+}
+.whatsappOmniWrapperModal .dropDownDiv {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+.whatsappOmniWrapperModal .OuterDiv {
+  /* width: 80%; */
+  /* margin: 5%; */
+}
+.whatsappOmniWrapperModal .heading {
+  margin-left: 3%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000000;
+}
+.whatsappOmniWrapperModal .staticDiv {
+  width: 100px;
+  height: 31.26px;
+  background: #0174ff;
+  border-radius: 7px;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.whatsappOmniWrapperModal .gapBtn {
+  margin-right: 7%;
+}
+.whatsappOmniWrapperModal .staticDivHuman {
+  width: 30%;
+  height: 31.26px;
+  background: #ffffff;
+  border: 1px solid #ddecff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9e9e9e;
+  cursor: pointer;
+}
+.whatsappOmniWrapperModal .logoNameDiv img {
+  width: 45px;
+}
+
+.whatsappOmniWrapperModal .midDate {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 1px solid #DDECFF; */
+  border-radius: 7px;
+  width: 230.24px;
+  height: 31.43px;
+}
+
+.whatsappOmniWrapperModal .inputNameCamp {
+  width: 230.24px;
+  height: 31.43px;
+  border: 1px solid #ddecff !important;
+  border-radius: 7px;
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.whatsappOmniWrapperModal .dropDownDivChannel {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* width: 55%; */
+}
+
+.whatsappOmniWrapperModal .agent-staticDiv {
+  width: 100px;
+  height: 31.26px;
+  background: #0174ff;
+  border-radius: 7px;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #ffffff;
+}
+.whatsappOmniWrapperModal .agent-staticDivHuman {
+  width: 130px;
+  height: 31.26px;
+  background: #ffffff;
+  border: 1px solid #ddecff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #9e9e9e;
+  margin-left: 5%;
+}
+
+.whatsappOmniWrapperModal .channelBtns {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.whatsappOmniWrapperModal .heightCampName {
+  height: 31.43px;
+  align-items: center;
+}
+.whatsappOmniWrapperModal .ConfigurationCampaignWrapper .colorPlaceholder {
+  color: #9e9e9e !important;
+}
+.whatsappOmniWrapperModal .languageDropdown {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  /* font-size:19.6467px !important; */
+  font-size: 16px !important;
+  font-family: "Roboto";
+  color: #000000 !important;
+  box-shadow: none !important;
+  background: #ffffff !important;
+
+  /* width: 209.24px; */
+  width: 230.24px;
+  height: 31.43px;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  border: 1px solid #ddecff !important;
+  border-radius: 7px;
+}
+.whatsappOmniWrapperModal .rc-time-picker {
+  padding-left: 10px;
+}
+.whatsappOmniWrapperModal .rc-time-picker a {
+  display: none !important;
+}
+
+.whatsappOmniWrapperModal .time-range-div .rc-time-picker-input {
+  font-weight: 600 !important;
+  font-size: 14px;
+  border: none;
+  color: black;
+}
+
+.whatsappOmniWrapperModal input[type="text"] {
+  padding: 2%;
+}
+
+.whatsappOmniWrapperModal .rc-time-picker-clear-icon:after {
+  content: none;
+}
+.whatsappOmniWrapperModal .buttonSubmit {
+  display: flex;
+  justify-content: flex-end;
+}
+.whatsappOmniWrapperModal .submitOmni {
+  width: 16% !important;
+  padding: 0.5% 0;
+  background: #0174ff;
+  border-radius: 7px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.whatsappOmniWrapperModal .HeaderDiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px;
+}
+
+.whatsappOmniWrapperModal .HeaderDiv .header-name {
+  width: 95%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+.whatsappOmniWrapperModal .HeaderDiv .edit-icon {
+  width: 5%;
+}
+
+.whatsappOmniWrapperModal .disablePointerEventUniversaljp {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.whatsappOmniWrapperModal .multiselect-wrapper-wrappers .placeholderDiv {
+  padding: 3px 3px;
+}
+
+.whatsappOmniWrapperModal .time-clr {
+  font-size: 15px;
+  line-height: 18px;
+  color: #0174ff;
+}
+
+.whatsappOmniWrapperModal .multiselect-wrapper-wrappers {
+  margin: 0px;
+}
+
+.whatsappOmniWrapperModal .multiselect-wrapper-omni .select-data {
+  color: #0174ff;
+}
+
+.whatsappOmniWrapperModal .multiselect-wrapper-omni {
+  margin: 0px;
+}

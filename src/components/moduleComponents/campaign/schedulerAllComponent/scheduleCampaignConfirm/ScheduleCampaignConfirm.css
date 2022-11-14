@@ -1,0 +1,99 @@
+.schedule-campaign-confirm-wrapper .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    min-height: 200px;
+    border: 0.728647px solid #D8D8D8;
+    background-color: #fff;
+    box-shadow: 0px 89.3867px 71.5094px rgba(36, 69, 152, 0.05), 0px 45.252px 31.1736px rgba(36, 69, 152, 0.03375), 0px 17.8773px 11.6203px rgba(36, 69, 152, 0.025), 0px 3.91067px 4.13413px rgba(36, 69, 152, 0.01625);
+    border-radius: 8px;
+    font-size: 1rem;
+
+}
+
+.schedule-campaign-confirm-wrapper .container .cross-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+
+}
+
+.schedule-campaign-confirm-wrapper .container .img1 {
+    margin-top: 2.5%;
+    cursor: pointer;
+    width: 1em;
+}
+
+.schedule-campaign-confirm-wrapper .data {
+    padding-top: 1.1em;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: .75em auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.schedule-campaign-confirm-wrapper .data div {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.schedule-campaign-confirm-wrapper .data div p:not(:first-child) {
+    display: inline-block;
+    width: 50%;
+
+
+}
+
+.schedule-campaign-confirm-wrapper .data .para {
+    margin-bottom: .6em;
+}
+
+.schedule-campaign-confirm-wrapper .data .spnx {
+    color: #0474FF;
+    padding-left: 2px;
+}
+
+.schedule-campaign-confirm-wrapper .container .btnxy {
+    background-color: #0174FF;
+    font-family: 'Roboto';
+    font-style: normal;
+    border-radius: 7px;
+    color: white;
+    padding: .7em 1.8em;
+    border-style: none;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+.schedule-campaign-confirm-wrapper .disableBtnscheduler{
+    opacity: 0.5;
+    cursor: none;
+    pointer-events: none;
+    
+}
+
+/* .schedule-campaign-confirm-wrapper .container button:hover {
+    background-color: #0174e0;
+    font-family: 'Roboto';
+    font-style: normal;
+    border-radius: 7px;
+    color: white;
+    padding: .7em 1.8em;
+    border-style: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    font-weight: bold;
+
+
+} */

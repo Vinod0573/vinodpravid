@@ -1,0 +1,44 @@
+.multiMonthWrapper {
+  width: 20%;
+
+  background-color: #ffffff;
+  box-shadow: 0px 4.88667px 7.33px -1.22167px rgba(0, 0, 0, 0.12),
+    0px 2.44334px 4.88667px -1.22167px rgba(0, 0, 0, 0.07);
+}
+.multiMonthWrapper .yearDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.multiMonthWrapper .yearRangeChange {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.multiMonthWrapper .monthDiv {
+  width: 90%;
+  margin: 5% auto;
+}
+.multiMonthWrapper .monthPicker {
+  display: flex;
+  justify-content: space-between;
+}
+.multiMonthWrapper .monthButton {
+  width: 30%;
+  margin-bottom: 4%;
+  border: none;
+  height: 30px;
+  background-color: rgb(227, 223, 223);
+  cursor: pointer;
+}
+.multiMonthWrapper .hightlight {
+  background-color: #0174ff;
+}
+.multiMonthWrapper .cursorPointer {
+  cursor: pointer;
+}
+
+.pickerPosition > div > div:last-child {
+  right: -180px !important;
+}

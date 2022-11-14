@@ -1,0 +1,186 @@
+.navigationbarTopDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8%;
+  width: 100vw;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  background-color: #ffffff;
+  border-bottom: 0.949618px solid #b6b6b6;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  // overflow: hidden;
+}
+.logoutSpan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 13px;
+  margin-right: 20px;
+  border-radius: 7px;
+  background: #ddecff;
+  mix-blend-mode: normal;
+  color: rgba(103, 103, 103, 0.6);
+  // border: 1.48387px solid #000000;
+  border-radius: 7px;
+}
+.logoutSpan:hover {
+  color: #000000;
+  opacity: 0.8;
+}
+
+.logoutLink {
+  text-decoration: none;
+  color: #000000;
+  opacity: 1;
+}
+
+.navgationLeftChild {
+  color: #1b1b1b;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navgationLeftLogoArea {
+  // width: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1vw;
+}
+
+.navgationLeftLogoArea p {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.navigationHeading h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  padding-left: 12px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.sidebarIcon {
+  width: 24px;
+  cursor: pointer;
+}
+
+.logomainnav {
+  margin-left: 1.5vw;
+  padding-top: 8px;
+  height: 50px;
+  width: 65px;
+  margin-top: -6px;
+}
+
+.logoutButtonStyle {
+  background: #ddecff !important;
+  color: rgba(103, 103, 103, 0.6);
+  border-radius: 7px !important;
+  width: 80px !important;
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  padding-top: 0.5vmax !important;
+  padding-bottom: 0.5vmax !important;
+  margin-right: 2vmax;
+  outline: none !important;
+}
+
+.logoutButtonStyle:hover {
+  color: #000000;
+}
+/* //Right side css */
+
+.navigationRightChild {
+  margin-right: 2vw;
+}
+
+.navigationRightWelcome {
+  color: #676767;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  opacity: 0.9;
+  text-shadow: -1px -1px 2px rgba(255, 255, 255, 0.6),
+    1px 1px 2px rgba(20, 44, 73, 0.31);
+}
+
+.navigationRightClientname {
+  text-transform: capitalize;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-right: 30px;
+}
+
+.requestFeatureSpan img {
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+  margin-right: 7px;
+  padding: 0 5px;
+}
+
+.requestFeaturePopupIcon {
+  position: relative;
+  img {
+    height: 27px;
+  }
+}
+
+.requestFeaturePopupDescription {
+  background: #ddecff;
+  border-radius: 3px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  width: 110px;
+  line-height: 11px;
+  text-align: center;
+  color: black;
+  padding: 5px 10px;
+  position: absolute;
+  top: 29px;
+  right: -7px;
+  display: none;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.requestFeaturePopupIcon:hover .requestFeaturePopupDescription {
+  display: block;
+  z-index: 9999;
+}
+
+.reportBugSpan img {
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+}

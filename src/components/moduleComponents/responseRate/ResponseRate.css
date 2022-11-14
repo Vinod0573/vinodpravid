@@ -1,0 +1,28 @@
+.responseRateMainDiv .responseRate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10% 0;
+}
+
+.responseRate .name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.87px;
+  line-height: 27.83px;
+  width: 20%;
+  text-align: left;
+  color: #000;
+}
+
+.responseRate .icons {
+  width: 10%;
+  height: 10%;
+  text-align: left;
+}
+
+.responseRateMainDiv .notFound {
+  padding: 30% 35%;
+}

@@ -1,0 +1,180 @@
+.AgentConfigurationWrapper .AgentConfigurationDiv {
+  /* width: 600px;
+  height: 400px; */
+
+  /* background: #ffffff;
+  box-shadow: 0px 226.596px 181.276px rgba(36, 69, 152, 0.05),
+    0px 114.714px 79.0252px rgba(36, 69, 152, 0.03375),
+    0px 45.3191px 29.4574px rgba(36, 69, 152, 0.025),
+    0px 9.91355px 10.48px rgba(36, 69, 152, 0.01625);
+  border-radius: 24.2389px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.AgentConfigurationWrapper .ContainDiv {
+  display: flex;
+  /* width: 100%; */
+  /* justify-content: center; */
+  margin-bottom: 2%;
+  align-items: center;
+}
+.AgentConfigurationWrapper .logoNameDiv {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  /* margin-left: 6%; */
+}
+.AgentConfigurationWrapper .TwoDropDownDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 55%; */
+}
+.AgentConfigurationWrapper .dropDownDiv {
+  display: flex;
+  align-items: center;
+}
+.AgentConfigurationWrapper .OuterDiv {
+  /* width: 80%; */
+  /* margin: 5%; */
+}
+.AgentConfigurationWrapper .heading {
+  margin-left: 3%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+}
+.AgentConfigurationWrapper .staticDiv {
+  width: 100px;
+  height: 31.26px;
+  background: #d8d8d8;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 6.83818px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+.AgentConfigurationWrapper .staticDivbtn {
+  width: 80px;
+  height: 31.26px;
+  margin-right: 10px;
+  background: #ffffff;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 6.83818px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+.AgentConfigurationWrapper .staticDiv2 {
+  width: 209.24px;
+  height: 31.43px;
+  background: #ffffff;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 6.87633px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AgentConfigurationWrapper .languageDropdown {
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  /* font-size:19.6467px !important; */
+  font-size: 16px !important;
+  font-family: "Roboto";
+  color: #000000 !important;
+
+  background: #ffffff !important;
+  border: 0.982333px solid #d8d8d8 !important;
+
+  border-radius: 6.87633px;
+  width: 209.24px;
+  height: 31.43px;
+  box-sizing: border-box !important;
+}
+.AgentConfigurationWrapper .preEmidropdown {
+  width: 100.31px;
+  height: 30px;
+  background: #ffffff;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 6.87633px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  left: 0px !important;
+}
+.AgentConfigurationWrapper .dropdowndListArea {
+  width: 100% !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+
+  background: #ffffff;
+  border: 0.982333px solid #d8d8d8;
+  box-sizing: border-box;
+  border-radius: 5.27236px;
+  margin-top: 5% !important;
+  /* height: 145px; */
+  overflow-y: scroll;
+}
+.AgentConfigurationWrapper .btnContainer {
+  display: flex;
+}
+.AgentConfigurationWrapper .eyeIconDiv {
+  margin-left: 2%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AgentConfigurationWrapper .eyeIconDiv:hover {
+  color: aquamarine;
+  background-color: aqua;
+}
+.AgentConfigurationWrapper .highlightStaticDiv {
+  border: 0.982333px solid #0177ff;
+  width: 80px;
+  height: 31.26px;
+  margin-right: 10px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 6.83818px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  cursor: pointer;
+}
+.AgentConfigurationWrapper .placeholderMultiStyleAgent {
+  color: #000000 !important;
+  font-size: 16px !important;
+}

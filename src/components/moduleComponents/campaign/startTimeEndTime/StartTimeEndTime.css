@@ -1,0 +1,53 @@
+.startEndTimeWrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.startEndTimeWrapper .inputBorderForm{
+    display: flex;
+    align-items: center;
+    border: 1px solid #9A9A9A;
+    border-radius: 7px;
+    padding: 2px 7px ;
+    width: 160px;
+    height: 30px;
+    /* margin: 10px; */
+}
+
+.startEndTimeWrapper .react-datepicker__input-container input{
+    border: none;
+    background: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4.74074px;
+    /* padding: 3px 20px; */
+    cursor: pointer;
+    width: 100px;
+    height: 28px;
+}
+
+.startEndTimeWrapper .time-font{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+display: flex;
+align-items: center;
+padding: 5px;
+color: #9E9E9E;
+}
+
+.startEndTimeWrapper .dcb-Time{
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+
+}
+.startEndTimeWrapper .errorTopDiv p {
+    color: red;
+    font-size: 8px;
+    position: relative;
+    top: 1px;
+}

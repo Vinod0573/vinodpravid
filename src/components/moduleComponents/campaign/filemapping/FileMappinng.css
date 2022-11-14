@@ -1,0 +1,375 @@
+.admin-modal-wrapper {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  left: 9vw;
+  top: 18vh;
+  background: #ffffff;
+  box-shadow: 0px 9.62245px 14.4337px -2.40561px rgba(0, 0, 0, 0.12),
+    0px 4.81122px 9.62245px -2.40561px rgba(0, 0, 0, 0.07);
+  border-radius: 19.2449px;
+}
+.admin-modal-wrapper .cursorDiv {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+.admin-modal-wrapper .addBtnField {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.admin-modal-wrapper .headerContainerAddbtn {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+}
+.admin-modal-wrapper .addBtnCursor {
+  cursor: pointer;
+  width: 100px;
+}
+
+.admin-modal-wrapper .admin-inner-div {
+  margin: 20px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+}
+
+.admin-modal-wrapper .initial-div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  background: #ffffff;
+  box-shadow: 0px 71.3652px 57.0921px rgba(36, 69, 152, 0.05),
+    0px 36.1286px 24.8886px rgba(36, 69, 152, 0.03375),
+    0px 14.273px 9.27747px rgba(36, 69, 152, 0.025),
+    0px 3.12223px 3.30064px rgba(36, 69, 152, 0.01625);
+
+  color: #0174ff !important;
+  border-radius: 7px;
+}
+
+.admin-modal-wrapper .admin-div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.admin-modal-wrapper .header-list {
+  /* height:300px; */
+  height: 85%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.admin-modal-wrapper .admin-box {
+  position: relative;
+  background: rgba(198, 215, 235, 0.27);
+  /* width: 180px; */
+  margin-top: 12px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  /* padding: 10px; */
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid rgba(198, 215, 235, 0.27);
+}
+
+.admin-modal-wrapper .filter-section-drop {
+  border: 1px solid #0174ff;
+  border-radius: 7px 7px 0px 0px;
+  height: 40px;
+  background: #ffffff !important;
+  color: #9e9e9e;
+  font-size: 16px;
+}
+.admin-modal-wrapper .select-data {
+  color: black !important;
+}
+.admin-modal-wrapper .hide-it {
+  visibility: hidden !important;
+}
+
+.admin-modal-wrapper .admin-box .body-data {
+  margin: 5px;
+}
+.admin-modal-wrapper .admin-box .multiselect-body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  overflow-y: hidden;
+  height: unset;
+}
+/* .customer-data button{
+    width: 60px !important;
+    height: 20px !important;
+    background-color: black;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 10px;
+} */
+
+.admin-modal-wrapper .eyeIcon {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.admin-modal-wrapper .hide-it {
+  visibility: hidden;
+}
+
+.admin-campaign-footer {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  width: 90%;
+  font-weight: 700;
+}
+
+/* .admin-modal-wrapper button{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    color:#FFFFFF;
+    font-weight: 900;
+} */
+
+.admin-modal-wrapper .inprogress {
+  background-color: #ede6a5;
+  border: 1px solid #ede6a5;
+  color: #333333;
+}
+
+.admin-modal-wrapper .completed {
+  background-color: #c1e79c;
+  border: 1px solid #c1e79c;
+  color: #333333;
+  width: 140px !important;
+}
+.admin-modal-wrapper .table-css {
+  position: absolute;
+  width: 1269px;
+  height: 639px;
+  /* left: 1419px; */
+  top: 318px;
+
+  background: #ffffff;
+  border: 0.52381px solid #d8d8d8;
+  box-shadow: 0px 64.2583px 51.4066px rgba(36, 69, 152, 0.05),
+    0px 32.5307px 22.4101px rgba(36, 69, 152, 0.03375),
+    0px 12.8517px 8.35357px rgba(36, 69, 152, 0.025),
+    0px 2.8113px 2.97195px rgba(36, 69, 152, 0.01625);
+  border-radius: 6.16961px;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.table-css-header {
+  position: relative;
+  width: 1269px;
+  height: 69px;
+  background: #e6eaf8;
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.admin-modal-wrapper.filter-ul {
+  margin-top: 10px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #ffffff;
+  box-shadow: 0px 64.2583px 51.4066px rgba(36, 69, 152, 0.05),
+    0px 32.5307px 22.4101px rgba(36, 69, 152, 0.03375),
+    0px 12.8517px 8.35357px rgba(36, 69, 152, 0.025),
+    0px 2.8113px 2.97195px rgba(36, 69, 152, 0.01625);
+}
+.admin-modal-wrapper.campaign-date {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin: 10px;
+}
+
+.admin-modal-wrapper.campaign-date-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.admin-modal-wrapper
+  .custom-datepicker
+  .react-datepicker__input-container
+  input {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* .create-campaign .custom-datepicker .react-datepicker__input-container input */
+
+.admin-modal-wrapper .footer-sec-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+/* .admin-modal-wrapper .footer-sec-div button{
+    cursor: pointer;
+}
+
+.admin-modal-wrapper button{
+    cursor: pointer;
+} */
+
+.admin-modal-wrapper.select-data {
+  color: black;
+}
+
+.admin-modal-wrapper input[type="text"] {
+  padding: 10px;
+}
+
+.admin-modal-wrapper .dropdownToBeSelected {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  height: 240px;
+
+  overflow-y: scroll;
+  background-color: #ffffff !important;
+  margin-top: 4px;
+  margin-top: 13px;
+}
+
+.admin-modal-wrapper .filter-ul {
+  background-color: #fbfcff !important;
+  box-shadow: none;
+}
+
+.admin-modal-wrapper .selecteditem {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+
+  width: 250px !important;
+  /* box-shadow: 0px 96.7895px 77.4316px rgba(36, 69, 152, 0.05), 0px 48.9997px 33.7554px rgba(36, 69, 152, 0.03375), 0px 19.3579px 12.5826px rgba(36, 69, 152, 0.025), 0px 5px 5px rgba(36, 69, 152, 0.01625) !important; */
+}
+
+.admin-modal-wrapper .input-campaign {
+  position: relative;
+  width: 170px;
+  height: 30px;
+
+  background: #ffffff;
+  border: 0.845393px solid #000000;
+  box-sizing: border-box;
+  border-radius: 15px;
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important; */
+}
+
+.admin-modal-wrapper .error-field {
+  color: red;
+  font-size: 12px;
+  margin: 8px;
+}
+
+.admin-modal-wrapper .error-border .selecteditem {
+  border: 1px solid red !important;
+}
+
+.admin-modal-wrapper .error-border input {
+  border: 1px solid red !important;
+}
+
+.admin-modal-wrapper .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.admin-modal-wrapper .multiselect-wrapper {
+  width: 190px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.admin-modal-wrapper .campaign-date img {
+  margin-left: 5%;
+  margin-right: 0;
+}
+
+.admin-modal-wrapper .csvMUploadDataButtonStyleJp {
+  background: #0174ff !important;
+  color: #ffffff;
+  border-radius: 7.3333px !important;
+  width: 160px !important;
+  font-size: 1.2vmax !important;
+  font-weight: 900 !important;
+  padding-top: 0.5vmax !important;
+  padding-bottom: 0.5vmax !important;
+}
+
+.admin-modal-wrapper .csvMUploadDataButtonStyleJp:hover {
+  opacity: 0.8;
+}
+.admin-modal-wrapper .cursorPointerBtn {
+  cursor: pointer;
+}
+.admin-modal-wrapper .extraMinus {
+  padding-right: 13px;
+}
+
+.admin-modal-wrapper .valid {
+  margin: 20px;
+}
+.admin-modal-wrapper .addButtonMapping {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 27px;
+  background: #0174ff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-modal-wrapper .plusDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px !important;
+  color: #ffffff !important;
+}
+.admin-modal-wrapper .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px !important;
+  color: #ffffff !important;
+}
+.admin-modal-wrapper .minusSignBtnnew {
+  height: 20px;
+  width: 30px;
+  cursor: pointer;
+}

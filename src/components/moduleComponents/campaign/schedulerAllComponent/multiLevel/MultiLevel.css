@@ -1,0 +1,45 @@
+.multi-level-dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0px 10px 0px 10px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #000000;
+}
+.multi-level-dropdown .mld__dd__button,
+.mld__dd__button__secondary {
+  width: 100% !important;
+  background-color: white !important;
+}
+
+.multi-level-dropdown .mld__dropdown__wrapper {
+  width: 100% !important;
+  background-color: white;
+}
+
+.activeDrop {
+  background-color: #ddecff;
+}
+.multi-level-dropdown .checkBox {
+  margin-right: 5px;
+  cursor: pointer;
+}
+.multi-level-dropdown .checkBox:checked {
+  background-color: #0174ff !important;
+}
+.multi-level-dropdown .arrowMultiDropdown {
+  /* padding-left: 44%; */
+}
+.multi-level-dropdown .colorItem {
+  color: #0174ff;
+}
+.multi-level-dropdown .placeholderDiv {
+  background-color: #ddecff;
+  margin-right: 8px;
+  color: #0174ff;
+  padding: 3px 5px;
+  border-radius: 4px;
+}

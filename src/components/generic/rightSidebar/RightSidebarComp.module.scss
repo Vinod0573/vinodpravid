@@ -1,0 +1,116 @@
+.rightsidebarcontianer {
+  width: 1em;
+  height: inherit;
+  background-color: white;
+  z-index: 300;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.iconswrapperrightside {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  padding-top: 0.6em;
+  z-index: 101;
+  opacity: 1;
+  background-color: white;
+  &:first-child {
+    padding-top: 0;
+    margin-top:3px;
+  }
+}
+.rightsidebaricosn {
+  width: 2.5em;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+  padding: 0;
+  img {
+    width: 1.8em;
+  }
+}
+.spinner {
+  width: 2.5em;
+  cursor: pointer;
+}
+
+.tooltiparea:hover {
+  .tooltiptext {
+    visibility: visible;
+    // width: 120px;
+    white-space: nowrap;
+    text-align: center;
+    p {
+      text-align: center;
+    }
+  }
+  .tooltiptextsp {
+    visibility: visible;
+  }
+}
+.tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  right: 2em;
+  font-family: "Roboto";
+  font-size: 13px;
+  padding: 5px 5px;
+  top: 50%;
+  transform: translate(0, -30%);
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+}
+
+.tooltiptext::after {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-left: 7px solid rgb(0, 0, 0);
+  top: 50%;
+  right: -11px;
+  transform: translate(0, -50%);
+}
+
+.tooltiptextsp {
+  visibility: hidden;
+  position: absolute;
+  left: -257px;
+  padding: 5px 5px;
+  top: 50%;
+  font-family: "Roboto";
+  font-size: 13px;
+  transform: translate(0, -30%);
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  
+}
+
+.tooltiptextsp::after {
+  position: absolute;
+  content: " ";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-left: 7px solid rgb(0, 0, 0);
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 2000;
+  p {
+    text-align: center;
+    color: red;
+  }
+}

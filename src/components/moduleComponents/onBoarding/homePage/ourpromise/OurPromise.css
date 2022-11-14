@@ -1,0 +1,44 @@
+.ourPromiseWrapper .ourPromiseBox{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+    border-bottom:  2px solid rgba(0, 0, 0, 0.2);;
+    padding-bottom: 8%;
+}
+.ourPromiseWrapper .heading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 192.5%;
+    /* identical to box height, or 100px */
+    color: #1E1E1E;    
+}
+.ourPromiseWrapper .nextParaDiv{
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   color: #1E1E1E;
+   font-size: 22px;
+
+}
+.ourPromiseWrapper .secondPara{
+    padding-top: 1%;
+}
+
+@media(max-width: 480px) {
+    .ourPromiseWrapper .heading {
+        font-size: 24px;
+        line-height: 192%;
+        margin-left: 10%;
+    }
+  }
+
+  @media(max-width: 480px) {
+    .ourPromiseWrapper .nextParaDiv{
+       font-size: 14px;
+       font-weight: 400 normal;
+       margin-left: 10%;
+       margin-top: 4%;
+    }
+  }

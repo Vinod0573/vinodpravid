@@ -1,0 +1,20 @@
+.wrapper {
+  width: 100%;
+  .eachIssue {
+    width: 100%;
+    .title {
+      color: var(--primary-color);
+      text-align: center;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .eachIssue {
+      margin: 5px;
+    }
+    .list {
+      text-align: center;
+      font-weight: 400;
+      color: var(--primary-grey);
+    }
+  }
+}

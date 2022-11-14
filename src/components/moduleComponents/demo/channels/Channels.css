@@ -1,0 +1,206 @@
+.channel-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%
+   
+}
+
+.channel-wrapper .channel-header{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 80px;
+}
+
+.channel-wrapper .title{
+    font-family: 'Roboto';
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size:20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.channel-wrapper .wh-initial img{
+    height:25px !important;
+}
+
+.channel-wrapper .card{
+position: relative;
+width: 1320px;
+height: 650px;
+background: #FFFFFF;
+box-shadow: 0px 299.983px 239.986px rgba(36, 69, 152, 0.05), 0px 151.866px 104.619px rgba(36, 69, 152, 0.03375), 0px 59.9966px 38.9978px rgba(36, 69, 152, 0.025), 0px 13.1243px 13.8742px rgba(36, 69, 152, 0.01625);
+border-radius: 32.0892px;
+margin: auto;
+overflow-y: auto;
+}
+
+.channel-wrapper .client-card{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 95%;
+    margin-top:10px ;
+}
+
+.channel-wrapper .div-elements{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.channel-wrapper .core-data{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    flex-direction: column;
+}
+
+.channel-wrapper .icon-sec{
+    width:10%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.channel-wrapper .main-sec{
+    width:55%;
+    font-size: 15px;
+   
+}
+
+.channel-wrapper .last-sec{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+
+.channel-wrapper .m-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 31px;
+    color: #000000;    
+
+}
+
+.channel-wrapper .row{
+    width: 100%;
+}
+
+.channel-wrapper .channels-btn{
+    bottom: 15px;
+    position: absolute
+}
+
+.channel-wrapper .basic{
+    width: 105px !important;
+    height: 30px !important;
+    font-size: 15px;
+    background-color: #0174FF !important;
+    border-radius: 7px !important;
+    color: white;
+    font-weight: 700;
+    margin: 10px;
+
+
+}
+.channel-wrapper .fb-id input{
+    width: 50% !important;
+}
+
+.channel-wrapper .last-sec .channel-input{
+    border: 1px solid #0174FF;
+    width: 100%;
+    height: 20px;
+    margin: 2px;
+    border-radius: 6.78747px;
+    padding: 10px;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.channel-wrapper .channel-text-area{
+    border: 1px solid #0174FF;
+    width: 100%;
+    height: 20px;
+    margin: 2px;
+    border-radius: 6.78747px;
+    padding: 10px;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.channel-wrapper .content-img{
+    height: 20px;
+    margin: 3px;
+}
+
+.channel-wrapper .info-sec{
+    width: 5%;
+}
+
+.channel-wrapper .info-sec img{
+margin: 8px;
+}
+
+.channel-wrapper .wh-initial{
+    display: flex;
+}
+
+.channel-wrapper .last-sec .increase-width{
+    height: 50px !important;
+}
+
+.channel-wrapper .profile-photo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    border: 1px solid #0174FF;
+    border-radius: 6.78747px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.channel-wrapper .profile-photo img{
+    height: 15px;
+    margin: 3px;
+}
+
+.channel-wrapper .profile-photo input{
+    border: none;
+}
+
+.channel-wrapper img{
+    /* height: 15px;
+    margin: 3px; */
+}
+
+.channel-wrapper .profile-photo button{
+    background: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+.channel-wrapper .back-icon{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}

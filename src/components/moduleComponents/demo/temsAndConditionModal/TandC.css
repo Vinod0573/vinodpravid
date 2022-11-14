@@ -1,0 +1,152 @@
+.TandCwrapper .TandCmodal {
+  width: 750px;
+  height: 480px;
+  background: #ffffff;
+  box-shadow: 0px 281.13px 224.904px rgba(36, 69, 152, 0.05),
+    0px 142.322px 98.0441px rgba(36, 69, 152, 0.03375),
+    0px 56.226px 36.5469px rgba(36, 69, 152, 0.025),
+    0px 12.2994px 13.0023px rgba(36, 69, 152, 0.01625);
+  border-radius: 30.0725px;
+  margin-top: 1%;
+  margin-left: 1.5%;
+}
+.TandCwrapper .firstDiv {
+  width: 300px;
+  height: 100px;
+  background: #ffffff;
+  padding-top: 20px;
+  padding-left: 8%;
+  margin-left: 2%;
+  border-bottom: 1px solid #d9d9d9;
+  border-radius: 16px 0px 0px 0px;
+}
+.TandCwrapper .firstHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+
+  color: #494949;
+}
+.TandCwrapper .firstPara {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  padding-top: 8px;
+
+  color: #7c7c7c;
+}
+.TandCwrapper .cancelbtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.TandCwrapper .crossBtn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.TandCwrapper .MiddleDiv {
+  display: flex;
+  justify-content: center;
+}
+.TandCwrapper .contain {
+  width: 70%;
+  height: 250px;
+  margin-top: 2.5%;
+  overflow-y: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.TandCwrapper .containHeading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+.TandCwrapper .containPara {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #494949;
+  /* padding-top: 5px; */
+  padding: 3px;
+  margin: 1% 0px;
+}
+.TandCwrapper .btnContainer {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.TandCwrapper .AcceptBtn {
+  width: 210px;
+  height: 40px;
+  background: #0174ff;
+  box-shadow: 0px 5px 25px -10px #0174ff;
+  border-radius: 7px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.TandCwrapper .CancelBtn {
+  width: 185px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #0174ff;
+  box-shadow: 0px 5px 25px -10px #0174ff;
+  border-radius: 7px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 14px;
+  color: #0174ff;
+}
+/* .TandCwrapper ::-webkit-scrollbar {
+    width: 6px;
+   
+  } */
+
+/* Track */
+/* .TandCwrapper  ::-webkit-scrollbar-track {
+    background: #F2F2F2;
+  } */
+
+/* Handle */
+/* .TandCwrapper  ::-webkit-scrollbar-thumb {
+   
+background: linear-gradient(179.82deg, #4296E4 0.16%, #383699 87.76%);
+  } */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #4296E4; 
+  } */
+.TandCwrapper .scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.TandCwrapper .scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
+.TandCwrapper .mainheadtc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3%;
+  height: 100px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  text-align: center;
+
+  color: #000000;
+}

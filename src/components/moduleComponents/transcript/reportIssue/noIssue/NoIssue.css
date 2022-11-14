@@ -1,0 +1,28 @@
+.noissue-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.noissuebirder {
+  border: 1px solid #0174ff;
+  border-radius: 7px;
+
+  display: flex;
+  color: #0174ff;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 4px;
+  cursor: pointer;
+  margin: 0 1vmax 0 1vmax;
+}
+.spn {
+  padding-left: 1em;
+}
+.clrchange {
+  color: white;
+  background-color: #0174ff;
+}
+.pointeren {
+  color: #8fbaff;
+  border-color: #8fbaff;
+  pointer-events: none;
+}

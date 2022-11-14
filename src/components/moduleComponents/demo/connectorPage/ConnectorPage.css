@@ -1,0 +1,46 @@
+.connectorPageWrapper .headindDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0174ff;
+}
+.connectorPageWrapper .componentContainer {
+  display: flex;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  height: 49vh;
+}
+.connectorPageWrapper .progressAndNextDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.connectorPageWrapper .btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #0174ff;
+
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.connectorPageWrapper .btn:hover {
+  background-color: #2d8bfe;
+}
+.connectorPageWrapper .backArrow {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4%;
+  height: 20px;
+}
+.connectorPageWrapper .iconBack {
+  cursor: pointer;
+}

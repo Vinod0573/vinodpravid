@@ -1,0 +1,25 @@
+.maxAttemptsWrapper .outerMaxDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #9E9E9E;
+    border-radius: 7px;
+}
+.maxAttemptsWrapper .inputDiv{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #9E9E9E;
+    text-align: center;
+
+}
+.maxAttemptsWrapper .cursorPointer{
+    cursor: pointer;
+}
+.maxAttemptsWrapper .imgContainer{
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}

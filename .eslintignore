@@ -1,0 +1,8 @@
+node_modules
+build
+src/templates
+webpack
+
+# ignored older files
+/**/*.js
+/**/*.jsx

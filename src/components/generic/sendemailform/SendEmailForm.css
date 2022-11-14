@@ -1,0 +1,72 @@
+.ddMailWrapper {
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 196px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 650;
+  font-size: 15px;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.inputWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.ddMailHeaderWrapper {
+  width: 100%;
+  height: 32px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sendEmailIconWrapper {
+  height: 23px;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sendEmailIcon {
+  width: 23px;
+  height: 23px;
+  margin: 2px;
+  margin: none;
+  cursor: pointer;
+}
+.ddMailInput {
+  width: 151px;
+  background: #f1f6fb;
+  border-radius: 4.74074px;
+  border-style: none;
+  border: 1px solid grey;
+  padding: 5px 7px;
+}
+.errorMessageEmailModal {
+  height: 2px;
+}
+.errorMessageEmailModal .errorTopDiv p {
+  color: red;
+  font-size: 6px;
+  top: 0px;
+}
+.errorMessageEmailModal .errorTopDiv {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  position: relative;
+  top: -5px;
+}
+.errorMessageEmailModal .errorTopDiv img {
+  width: 9px;
+}

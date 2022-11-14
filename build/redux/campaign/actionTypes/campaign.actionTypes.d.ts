@@ -1,0 +1,28 @@
+declare const _default: {
+    SET_ALL_CAMPAIGN_LIST: string;
+    SET_TYPE_UPLOAD_CLICK: string;
+    SAARTHI_HEADER: string;
+    SET_CAMPAIGN_SELECTED_DATA: string;
+    SET_CAMPAIGN_ID_NAME: string;
+    SET_CAMPAIGN_ID_NAME_EDIT: string;
+    SET_FILE_UPLOADED_INFO: string;
+    SET_TYPE_CREATE_EDIT_CAMAPIGN: string;
+    SET_IS_CREATE_CAMPAIGN: string;
+    SET_CLIENT_NAME: string;
+    SET_CAMPAIGN_CREDENTIAL: string;
+    SET_STORE_MAPPED_DATA: string;
+    SET_CHILD_DATA: string;
+    SET_PARENT_DATA: string;
+    SET_CSV_HEADER_DATA: string;
+    SET_FILTEREDATE_CAMPAIGN: string;
+    SET_CAMPAIGN_ID_ALL_EDIT: string;
+    SET_ALL_CAMPAIGN_CHANNEL_DATA: string;
+    SET_ALL_CHANNEL_OMNI: string;
+    SET_STORED_SCHEDULER_DATA: string;
+    SET_UPDATE_MODE: string;
+    SET_UPLOADED_CSV_DATA: string;
+    SET_PARENT_CAMPAIGN_LIST_ID: string;
+    SET_IS_SHOW_CONFIRM: string;
+    PUSHED_API_DATA_CSV_DOWNLOAD: string;
+};
+export default _default;

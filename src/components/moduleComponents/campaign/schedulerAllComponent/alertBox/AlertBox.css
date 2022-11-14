@@ -1,0 +1,59 @@
+.alertBoxSchedulerWrapper .alertBoxOuterDiv{
+    width: 650px;
+    height: 300px ;
+    background: #FFFFFF;
+   border: 0.728647px solid #D8D8D8;
+  box-shadow: 0px 89.3867px 71.5094px rgba(36, 69, 152, 0.05), 0px 45.252px 31.1736px rgba(36, 69, 152, 0.03375), 0px 17.8773px 11.6203px rgba(36, 69, 152, 0.025), 0px 3.91067px 4.13413px rgba(36, 69, 152, 0.01625);
+   border-radius: 8.76768px;
+  position: relative;
+}
+.alertBoxSchedulerWrapper .crossBtn{
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  cursor: pointer;
+}
+.alertBoxSchedulerWrapper .imgContainerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.alertBoxSchedulerWrapper .firstMsg{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20.0404px;
+text-align: center;
+color: #DB303F;
+padding-top: 5%;
+padding-bottom: 4%;
+}
+.alertBoxSchedulerWrapper .note{
+    color: #000000;
+    font-weight: 700;
+   font-size: 18px;
+}
+.alertBoxSchedulerWrapper .noteDiv{
+    text-align: center;
+    font-size: 16px;
+}
+.alertBoxSchedulerWrapper .buttonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+.alertBoxSchedulerWrapper .btnStyle{
+    width: 120px;
+    height: 45px;
+    background: #0174FF;
+   border-radius: 8.76768px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+cursor: pointer;
+}

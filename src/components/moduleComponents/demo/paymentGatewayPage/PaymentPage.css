@@ -1,0 +1,39 @@
+.PaymentWrapper .headindDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #0174ff;
+}
+.PaymentWrapper .componentContainer {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10%;
+  gap: 15%;
+
+  margin: 5%;
+}
+/* .PaymentWrapper .connectorIconDiv{
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.PaymentWrapper .backArrow{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+    cursor: pointer;
+ } */
+.PaymentWrapper .backArrow {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4%;
+  padding-left: 4%;
+  height: 20px;
+}
+.PaymentWrapper .iconBack {
+  cursor: pointer;
+}
