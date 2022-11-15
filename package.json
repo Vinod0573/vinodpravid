@@ -69,7 +69,7 @@
   },
   "scripts": {
     "start": "set HTTPS=true && react-scripts start",
-    "build": "  (rm -rf build/*) && (npm run webpack-build) & ( serve -s build)",
+    "build": "  (rm -rf build/*) && (npm run webpack-build)",
     "webpack-build": "webpack --config webpack/webpack.prod.js",
     "restart": "(yarn cache clean --force && rm -rf node_modules && rm ./package-lock.json && yarn install) && (yarn start)",
     "lint": "eslint ",
