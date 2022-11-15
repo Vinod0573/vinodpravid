@@ -92,7 +92,7 @@ const HomePage = () => {
               rel="noreferrer noopener"
               className="acceleratingLink"
             >
-              Hey its Tuesday know how a leading fintech accelerated collections with
+              Hey do you know how a leading fintech accelerated collections with
               85% cost reduction? Download our Success Study.
             </a>
           </h2>
